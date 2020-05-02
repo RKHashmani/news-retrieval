@@ -7,10 +7,10 @@ import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import com.opencsv.CSVReader;
 
 public class StandardIndexer {
 
@@ -50,16 +50,23 @@ public class StandardIndexer {
     }
 
     public int createIndex(String dataDirPath) {
-        CSVReader reader = null;
+        BufferedReader reader = null;
         int i = 0;
-        String [] nextLine;
+        String nextLine;
         try {
-            reader = new CSVReader(new FileReader(dataDirPath));
-            reader.readNext(); // omit column names
-            while ((nextLine = reader.readNext()) != null) {
+            reader = new BufferedReader(new FileReader(dataDirPath));
+            reader.readLine();
+            while ((nextLine = reader.readLine()) != null) {
                 i++;
-                System.out.println(i);
-                indexFile(nextLine, i);
+                String [] line = new String[3];
+                nextLine = nextLine.trim();
+                int endIndex = nextLine.indexOf(",");
+                String date = nextLine.substring(0, endIndex);
+                line[0] = date;
+                String [] header_content = nextLine.substring(endIndex + 1).split("\"*\",");
+                line[1] = header_content[0];
+                line[2] = header_content[1];
+                indexFile(line, i);
             }
         }
         catch (Exception e) {
