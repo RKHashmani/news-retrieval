@@ -83,5 +83,10 @@
             <artifactId>javafx-controls</artifactId>
             <version>14-ea+8</version>
         </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.1</version>
+        </dependency>
     </dependencies>
 </project>

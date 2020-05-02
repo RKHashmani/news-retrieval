@@ -1,5 +1,6 @@
 package luceneTutorial;
 
+import Constants.LuceneConstants;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
