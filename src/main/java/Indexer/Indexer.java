@@ -29,8 +29,8 @@ public class Indexer{
         Document document = new Document();
         assert line.length == 3;
         TextField contentField = new TextField(LuceneConstants.CONTENTS, line[2], Field.Store.YES);
-        StringField headerField = new StringField(LuceneConstants.HEADER,
-                line[1], Field.Store.YES);
+        TextField headerField = new TextField(LuceneConstants.HEADER,
+                line[1], Field.Store.YES); // Changed from StringField to TextField
         TextField dateField = new TextField(LuceneConstants.DATE,
                 line[0],Field.Store.YES);
 
