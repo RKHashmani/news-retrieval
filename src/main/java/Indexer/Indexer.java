@@ -12,13 +12,13 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class StandardIndexer {
+public class Indexer{
 
-    private final IndexWriter writer;
+    protected IndexWriter writer;
 
-    public StandardIndexer(String indexDirectoryPath) throws IOException {
+    public Indexer(String indexDirectoryPath, IndexWriterConfig config) throws IOException {
         Directory indexDirectory = FSDirectory.open(new File(indexDirectoryPath).toPath());
-        writer = new IndexWriter(indexDirectory, new IndexWriterConfig());
+        writer = new IndexWriter(indexDirectory, config);
     }
 
     public void close() throws IOException {

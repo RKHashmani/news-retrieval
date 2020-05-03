@@ -6,3 +6,4 @@ target
 Small_TRCV2.zip
 src/main/resources/reuters/
 src/main/resources/StandardIndex
+src/main/resources/StopWordsIndex

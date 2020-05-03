@@ -13,7 +13,7 @@ public class LuceneTester {
 
     String indexDir = "src/main/resources/Index";
     String dataDir = "src/main/resources/Data";
-    Indexer indexer;
+    IndexerTutorial indexer;
     Searcher searcher;
 
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class LuceneTester {
     }
 
     private void createIndex() throws IOException {
-        indexer = new Indexer(indexDir);
+        indexer = new IndexerTutorial(indexDir);
         int numIndexed;
         long startTime = System.currentTimeMillis();
         numIndexed = indexer.createIndex(dataDir, new TextFileFilter());

@@ -15,11 +15,11 @@ import java.io.FileFilter;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Indexer {
+public class IndexerTutorial {
 
     private final IndexWriter writer;
 
-    public Indexer(String indexDirectoryPath) throws IOException {
+    public IndexerTutorial(String indexDirectoryPath) throws IOException {
         //this directory will contain the indexes
         Directory indexDirectory =
                 FSDirectory.open(new File(indexDirectoryPath).toPath());
