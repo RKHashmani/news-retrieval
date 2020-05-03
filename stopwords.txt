@@ -1,0 +1,13 @@
+1164+ hits documents found. Time :117
+Article: "ITC confirms Nokia win over Qualcomm -- Nokia
+Article: "Nokia to buy out others from Symbian
+Article: "Nokia rolls out more Internet services
+Article: "Evli upgrades Nokia to ""accumulate
+Article: "NOKIA <NOK1V.HE> CFO SAYS EVEN THOUGH CREDIT MARKET TIGHT, IT REMAINS OPEN FOR NOKIA
+Article: "BRIEF-Nokia completes Trolltech acquisition
+Article: "TEXT-S&P release on Nokia Corp
+Article: "Nokia shares rise on Qualcomm deal
+Article: "Nokia unveils two new handsets
+Article: "Nokia to buy software firm Trolltech
+
+Process finished with exit code 0

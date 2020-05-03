@@ -46,7 +46,6 @@ public class Indexer{
     private void indexFile(String [] line, int i) throws IOException {
         Document document = getDocument(line, i);
         writer.addDocument(document);
-        System.out.println("Line " + i + " indexed.");
     }
 
     public int createIndex(String dataDirPath) {

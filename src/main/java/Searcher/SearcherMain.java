@@ -4,18 +4,16 @@ TO-DO: Make it so that we can CHOOSE the FIELD to search in. Very Easy fix, leav
 
 package Searcher;
 
-import java.io.IOException;
-
 import Constants.LuceneConstants;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.search.CollectionStatistics;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 
-public class SearcherMain {
+import java.io.IOException;
 
-    static String standard = "src/main/resources/StandardIndex";
-    static String stopwords = "src/main/resources/StopWordsIndex";
+public class SearcherMain {
 
     Searcher searcher;
 
@@ -23,26 +21,31 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("Nokia"); // Choose Search Query here. Choose Field below.
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+            tester.search("absemt"); // Choose Search Query here. Choose Field below.
+        } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(standard);   //Choosing which Index
+        searcher = new Searcher(LuceneConstants.StopWordsIndexDir);   //Choosing which Index
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
         long endTime = System.currentTimeMillis();
 
-        System.out.println(hits.totalHits +
-                " documents found. Time :" + (endTime - startTime));
-        for(ScoreDoc scoreDoc : hits.scoreDocs) {
-            Document doc = searcher.getDocument(scoreDoc);
-            System.out.println("Article: "
-                    + doc.get(LuceneConstants.HEADER));
+        if (hits.totalHits.value == 0) {
+            SpellCheckerService spellcheck = new SpellCheckerService();
+            spellcheck.suggestWords(searchQuery); // dunno how to expand it for multiterm queries
+        } else {
+            System.out.println(hits.totalHits.value +
+                    " documents found. Time :" + (endTime - startTime));
+            for(ScoreDoc scoreDoc : hits.scoreDocs) {
+                Document doc = searcher.getDocument(scoreDoc);
+                System.out.println("Article: "
+                        + doc.get(LuceneConstants.HEADER));
+            }
         }
+        CollectionStatistics stats = searcher.getStats();
+        System.out.println(stats);
     }
 }

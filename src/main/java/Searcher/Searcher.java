@@ -11,10 +11,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
-import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.Query;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
@@ -38,8 +35,11 @@ public class Searcher {
         return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }
 
-    public Document getDocument(ScoreDoc scoreDoc) throws CorruptIndexException, IOException {
+    public Document getDocument(ScoreDoc scoreDoc) throws IOException {
         return indexSearcher.doc(scoreDoc.doc);
     }
 
+    public CollectionStatistics getStats() throws IOException {
+        return indexSearcher.collectionStatistics(LuceneConstants.CONTENTS);
+    }
 }
