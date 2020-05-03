@@ -26,11 +26,11 @@ public class Searcher {
     Query query;
     StandardAnalyzer standardAnalyzer = new StandardAnalyzer(); //Using the standard Analyzer for now
 
-    public Searcher(String indexDirectoryPath) throws IOException { //Only searches Content for now.
+    public Searcher(String indexDirectoryPath) throws IOException {
         Directory indexDirectory = FSDirectory.open(new File(indexDirectoryPath).toPath());
         IndexReader reader = DirectoryReader.open(indexDirectory);
         indexSearcher = new IndexSearcher(reader);
-        queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
+        queryParser = new QueryParser(LuceneConstants.HEADER, standardAnalyzer); //Choose FIELD here
     }
 
     public TopDocs search( String searchQuery) throws IOException, ParseException {

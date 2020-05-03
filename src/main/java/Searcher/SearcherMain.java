@@ -1,3 +1,7 @@
+/*
+TO-DO: Make it so that we can CHOOSE the FIELD to search in. Very Easy fix, leave it for Raheem.
+ */
+
 package Searcher;
 
 import java.io.IOException;
@@ -13,13 +17,13 @@ public class SearcherMain {
     static String standard = "src/main/resources/StandardIndex";
     static String stopwords = "src/main/resources/StopWordsIndex";
 
-    Searcher searcher; // = new Searcher(standard);
+    Searcher searcher;
 
     public static void main(String[] args) {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("2008-01-01");
+            tester.search("Nokia"); // Choose Search Query here. Choose Field below.
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -28,7 +32,7 @@ public class SearcherMain {
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(stopwords);
+        searcher = new Searcher(standard);   //Choosing which Index
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
         long endTime = System.currentTimeMillis();
