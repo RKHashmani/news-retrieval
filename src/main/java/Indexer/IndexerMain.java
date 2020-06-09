@@ -25,7 +25,7 @@ public class IndexerMain {
 
     public static void main(String[] args) throws IOException {
         makeIndex(new IndexWriterConfig(), LuceneConstants.StandardIndexDir); //no stop words
-        makeIndex(new IndexWriterConfig(new StandardAnalyzer(new FileReader(LuceneConstants.stopWordsDir))), LuceneConstants.StopWordsIndexDir); // with given stop words
+        makeIndex(new IndexWriterConfig(new StandardAnalyzer(new FileReader(LuceneConstants.stopWordsDir))), LuceneConstants.StopWordsIndexDir); // without given stop words
         makeIndex(new IndexWriterConfig(new WhitespaceAnalyzer()), LuceneConstants.WhiteSpaceIndexDir);
     }
 }
