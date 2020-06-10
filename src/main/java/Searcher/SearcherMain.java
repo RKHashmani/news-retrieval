@@ -22,7 +22,7 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("Former Tourmaline"); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("Green Nokia"); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
@@ -33,8 +33,6 @@ public class SearcherMain {
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
 
-        float docID = hits.scoreDocs[9].score;
-        System.out.println(docID); // DocID of the 0th rank? IDK
         long endTime = System.currentTimeMillis();
 
         if (hits.totalHits.value == 0) {
@@ -47,7 +45,12 @@ public class SearcherMain {
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
-                        + doc.get(LuceneConstants.HEADER) + " (Score: " + hits.scoreDocs[x].score + ")");
+                        + doc.get(LuceneConstants.HEADER)
+                        + " Date: " + doc.get(LuceneConstants.DATE)
+                        + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + hits.scoreDocs[x].doc + ")"
+                        // + "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
+                );
+
                 x=x+1;
             }
         }

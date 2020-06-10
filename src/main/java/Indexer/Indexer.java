@@ -2,8 +2,15 @@ package Indexer;
 
 import Constants.LuceneConstants;
 import org.apache.lucene.document.*;
+import org.apache.lucene.index.FieldInvertState;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.search.CollectionStatistics;
+import org.apache.lucene.search.TermStatistics;
+import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
+import org.apache.lucene.search.similarities.Similarity;
+import org.apache.lucene.search.similarities.TFIDFSimilarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -15,10 +22,39 @@ import java.io.IOException;
 public class Indexer{
 
     protected IndexWriter writer;
+    Similarity similarity;
 
     public Indexer(String indexDirectoryPath, IndexWriterConfig config) throws IOException {
         Directory indexDirectory = FSDirectory.open(new File(indexDirectoryPath).toPath());
+
+        /*
+        // Custom made similarity method. Mimics the ClassicSimilarity, but doesn't give the exact same results.
+        // If you decide to use this, make sure to copy paste it in the appropriate location in Searcher.java
+        similarity = new TFIDFSimilarity() {
+            @Override
+            public float tf(float v) {
+                return v;
+            }
+
+            @Override
+            public float idf(long l, long l1) {
+                float idf_value = (float) Math.log((l1+1)/(l+1)) + 1; //Uses Log base e (ln)
+                return idf_value;
+            }
+
+            @Override
+            public float lengthNorm(int i) {
+                return (float)0.35355338;
+            }
+        }; // Choose Ranking Method Here. Make sure it matches the one in Searcher.java
+         */
+
+        similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Searcher.java
+        config.setSimilarity(similarity);
+        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         writer = new IndexWriter(indexDirectory, config);
+        //writer.deleteAll(); //Maybe not needed.
+        //writer.commit();
     }
 
     public void close() throws IOException {
