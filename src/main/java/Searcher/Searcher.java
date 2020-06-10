@@ -12,6 +12,10 @@ import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
+import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
+import org.apache.lucene.search.similarities.Similarity;
+import org.apache.lucene.search.similarities.TFIDFSimilarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
@@ -22,17 +26,26 @@ public class Searcher {
     QueryParser queryParser;
     Query query;
     StandardAnalyzer standardAnalyzer = new StandardAnalyzer(); //Using the standard Analyzer for now
+    Similarity similarity;
 
     public Searcher(String indexDirectoryPath) throws IOException {
         Directory indexDirectory = FSDirectory.open(new File(indexDirectoryPath).toPath());
         IndexReader reader = DirectoryReader.open(indexDirectory);
         indexSearcher = new IndexSearcher(reader);
+        similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Indexer.java
+        indexSearcher.setSimilarity(similarity);
         queryParser = new QueryParser(LuceneConstants.HEADER, standardAnalyzer); //Choose FIELD here
+        // Change above's standard Analyzer to match whatever analyzer we use for the index
     }
 
     public TopDocs search( String searchQuery) throws IOException, ParseException {
         query = queryParser.parse(searchQuery);
         return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
+    }
+
+    public Explanation explanation (int docID)throws IOException, ParseException{
+        Explanation explain = indexSearcher.explain(query,docID);
+        return explain;
     }
 
     public Document getDocument(ScoreDoc scoreDoc) throws IOException {
