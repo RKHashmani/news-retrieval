@@ -1,0 +1,4 @@
+investigation of full scale split trailing edge wing
+flaps with various chords and hinge locations .
+wallace,r.
+naca r.539, 1935.

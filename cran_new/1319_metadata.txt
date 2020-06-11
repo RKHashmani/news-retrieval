@@ -1,0 +1,3 @@
+real gas effects in flow over blunt bodies at hypersonic speeds .
+nagamatsu, h.t., geiger r.e. and sheet, r.e.
+arc 21, 083, june 1959 .

@@ -1,0 +1,4 @@
+axisymmetric large deflections of circular plates subjected
+to thermal and mechanical load .
+newman,m. and forray,m.
+proc. aerospace forum i session, s.m.f. paper ff-30, 1962, 56.

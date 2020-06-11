@@ -1,0 +1,3 @@
+supersonic flow past a family of blunt symmetric bodies .
+van dyke,m.d. and gordon,h.d.
+nasa r-1, 1959.

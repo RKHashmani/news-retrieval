@@ -1,0 +1,3 @@
+analytic determination of discharge coefficients of flow nozzles .
+simmons, f.s.
+naca tn 3449, 1955 .

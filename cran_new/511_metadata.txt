@@ -1,0 +1,4 @@
+tunnel tests on a double cascade to determine the interaction
+between the rotor and the nozzles of a supersonic turbine .
+stratford,b.s.
+ngte m359.

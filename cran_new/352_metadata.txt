@@ -1,0 +1,4 @@
+on heat transfer over a sweat-cooled surface in laminar
+compressible flow with a pressure gradient .
+murduchow,m.
+j. ae. scs. 19, 1952, 705.

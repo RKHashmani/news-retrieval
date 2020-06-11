@@ -1,0 +1,4 @@
+experimental lift and drag of a series of glide configurations
+at mach numbers 12 .6 and 17 .5.
+geiger,r.e.
+j. ae. scs. 1962, 410.

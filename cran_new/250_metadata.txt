@@ -1,0 +1,4 @@
+pressure distributions at zero lift for delta wings
+with rhombic cross sections .
+eminton,e.
+arc cp.525, 1960.

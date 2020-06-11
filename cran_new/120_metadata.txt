@@ -1,0 +1,4 @@
+measurement of convective heat transfer by means of
+the reynolds analogy .
+granville,r.a. and boxall,g.
+brit.j.app.phys. 11, 1960, 471.

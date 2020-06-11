@@ -1,0 +1,4 @@
+inviscid hypersonic airflows with coupled non-equilibrium
+processes .
+hall,j.g., eschenroeder,a.w. and marrone,p.v.
+ias paper 62-67, 1962.

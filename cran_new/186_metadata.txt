@@ -1,0 +1,3 @@
+base pressure in supersonic flow .
+gadd,g.e., holder,d.w. and regan,j.d.
+arc cp271, 1956.

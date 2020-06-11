@@ -1,0 +1,4 @@
+an experimental study of the glancing interaction between
+a shock wave and a turbulent boundary layer .
+stanbrook,a.
+arc cp.555, 1960.

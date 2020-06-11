@@ -1,0 +1,4 @@
+an approximate solution of hypersonic laminar boundary
+layer equations and its application .
+nagakura,t. and naruse,h.
+j. phys. soc. japan, 12, 1957, 1298.

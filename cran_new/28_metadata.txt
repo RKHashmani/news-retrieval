@@ -1,0 +1,4 @@
+a note on the explosion solution of sedov with application
+to the newtonian theory of unsteady hypersonic flow .
+freeman,n.c.
+j. ae. scs. 27, 1960, 77.

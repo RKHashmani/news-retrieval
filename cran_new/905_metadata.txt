@@ -1,0 +1,3 @@
+comparative tests of pitot-static tubes .
+merriam,k.g. and spaulding,e.r.
+naca tn.546.

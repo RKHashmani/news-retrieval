@@ -1,0 +1,4 @@
+tabulation of the blasius function with blowing and
+suction .
+emmons,h.w. and leigh,d.c.
+arc cp.1913, 1953.

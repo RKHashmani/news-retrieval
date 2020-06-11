@@ -1,0 +1,4 @@
+solution of subsonic nonplanar lifting surface problems
+by means of high-speed digital computers .
+kilakowski,l.j. and haskell,r.n.
+j. ae. scs. 1961.

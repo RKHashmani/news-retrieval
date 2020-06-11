@@ -1,0 +1,4 @@
+temperature distribution and thermal stresses in a
+model of a supersonic wing .
+pohle,f.v. and oliver,h.
+j. ae. scs. 21, 1954, 8.

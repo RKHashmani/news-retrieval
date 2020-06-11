@@ -1,0 +1,3 @@
+dynamics of a dissociating gas .
+lighthill,m.j.
+j.fluid mech. 2, 1957, 1.

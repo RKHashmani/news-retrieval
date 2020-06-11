@@ -1,0 +1,4 @@
+experimental study of the vibrations of a circular
+cylindrical shell .
+gottenberg,w.g.
+j. acoust. soc. america, 32, 1960, 1002.

@@ -1,0 +1,4 @@
+theory for supersonic two-dimensional, laminar, base-type
+flows using the crocco-lees mixing concepts .
+rom,j.
+j.ae.scs. 29, 1962, 963.

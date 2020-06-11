@@ -1,0 +1,3 @@
+subsonic potential flow past a sphere inside a cylindrical duct .
+william l. haberman
+david taylor model basin, carderock, md.

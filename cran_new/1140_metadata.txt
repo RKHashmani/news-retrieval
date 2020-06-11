@@ -1,0 +1,4 @@
+shock-standoff distance for spherical bodies at high
+mach numbers .
+chaudhury,p.r.
+j. ae. scs. 29, 1962, 745.

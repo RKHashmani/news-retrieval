@@ -1,0 +1,4 @@
+a reaction-rate parameter for gasdynamics of a chemically
+reacting gas mixture .
+leonard,m.
+j.ae.scs. 29, 1962, 995.

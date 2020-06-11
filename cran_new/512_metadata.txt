@@ -1,0 +1,4 @@
+quasi-cylindrical surfaces with prescribed thickness
+distributions .
+moore,k.c.
+rae tn.aero.2815, 1962.

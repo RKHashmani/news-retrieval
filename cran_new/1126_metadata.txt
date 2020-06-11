@@ -1,0 +1,4 @@
+an engineer's conceptual approach to the buckling of
+cylindrical shell (axial loading) .
+cunningham,j.h.
+ias paper 62-106, 1962.

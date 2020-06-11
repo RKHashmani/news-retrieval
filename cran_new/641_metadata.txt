@@ -1,0 +1,4 @@
+reduction of the clamped plate to two membrane problems
+with an application to uniformly loaded sectors .
+morley,l.s.d.
+rae r.struct.277, 1962.

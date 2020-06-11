@@ -1,0 +1,5 @@
+free-flight measurements of the static and dynamic
+stability and drag of a 10 blunted cone at mach numbers
+3 .5 and 8 .5 .
+intrieri, p. f.
+nasa tn. d1299, 1962.

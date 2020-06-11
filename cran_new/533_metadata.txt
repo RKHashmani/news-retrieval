@@ -1,0 +1,4 @@
+stagnation-point shock-detachment distance for flow
+around spheres and cylinders in air .
+ambrosio,a. and wortman,a.
+j. ae. scs. 29, 1962.

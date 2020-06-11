@@ -1,0 +1,3 @@
+structural loads surveys on two tilt-wing vtol configurations .
+ward,j.f.
+nasa tn.d729, 1961.

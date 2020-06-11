@@ -1,0 +1,4 @@
+inviscid flow with nonequilibrium molecular dissociation for pressure
+distributions encountered in hypersonic flight .
+bloom, m.g. and steiger, m.h.
+j. aero. sc. v. 27, pp 821-835, 1960 .

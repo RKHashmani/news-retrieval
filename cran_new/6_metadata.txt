@@ -1,0 +1,4 @@
+one-dimensional transient heat flow in a multilayer
+slab .
+campbell,w.f.
+j. ae. scs. 25, 1958, 340.

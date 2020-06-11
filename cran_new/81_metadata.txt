@@ -1,0 +1,4 @@
+compressible laminar flow and heat transfer about a
+rotating isothermal disk .
+ostrach,s. and thornton,p.
+naca tn.4320, 1958.

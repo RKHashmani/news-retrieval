@@ -1,0 +1,4 @@
+compilation of information on the transonic attachment
+of flows at the leading edge of airfoils .
+lindsey,w.f. and landrum,e.
+naca tn.4204, 1958.

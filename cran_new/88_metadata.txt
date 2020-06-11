@@ -1,0 +1,3 @@
+magnetohydrodynamic free-convection pipe flow .
+cramer,k.r.
+j. ae. scs. 28, 1961, 736.

@@ -1,0 +1,4 @@
+the buckling strength of a uniform circular cylinder
+loaded in axial compression .
+sobey,a.j.
+rae r. struct,279, 1962.

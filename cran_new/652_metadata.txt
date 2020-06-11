@@ -1,0 +1,4 @@
+pressure distribution on two dimensional wings near
+the ground .
+bagley,j.a.
+rae r. aero.2625, 1960.

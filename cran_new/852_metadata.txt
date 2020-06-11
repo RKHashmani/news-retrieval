@@ -1,0 +1,4 @@
+stress and displacement analysis of simply supported
+non- circular cylindrical shell under lateral pressure .
+romano,f. and kempner,j.
+pibal r.415, 1958.

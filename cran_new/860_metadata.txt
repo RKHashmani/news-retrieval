@@ -1,0 +1,4 @@
+test of an aerodynamically heated multi-- web wing
+structure (mw-1) in a free jet at mach number 2.
+heldenfels,r.s., rosecrans,r. and grifith,g.e.
+naca rm l53e27, 1953.

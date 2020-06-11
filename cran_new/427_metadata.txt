@@ -1,0 +1,3 @@
+flow of gas through turbine lattices .
+deich,m.e.
+naca tm.1393, 1956.

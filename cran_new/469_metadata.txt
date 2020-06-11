@@ -1,0 +1,4 @@
+linearised transonic flow about slender bodies at zero
+angle of attack .
+maeder,p.f. and thommen,h.u.
+asme trans. j.app.mech. 28, 1961.

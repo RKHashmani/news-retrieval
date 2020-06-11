@@ -1,0 +1,3 @@
+inviscid hypersonic flow past blunt bodies .
+maslen,s.h. and moeckel,w.e.
+j. ae. scs. 24, 1957.

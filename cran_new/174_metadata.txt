@@ -1,0 +1,6 @@
+investigation at supersonic speeds of the effects of
+jet mach number and divergence angle of the nozzle
+upon the pressure of the base annulus of a body of
+revolution .
+bromm,a.f. and o'donnel,r.m.
+naca rm l54i16, 1954.

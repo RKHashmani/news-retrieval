@@ -1,0 +1,4 @@
+theory of stagnation point heat transfer in dissociated
+air .
+fay,j.a. and riddell,f.r.
+j. ae. scs. 25, 1958, 73.

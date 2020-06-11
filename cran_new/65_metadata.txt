@@ -1,0 +1,4 @@
+convection of a pattern of vorticity through a shock
+wave .
+ribner,h.s.
+naca tn.2864, 1953.

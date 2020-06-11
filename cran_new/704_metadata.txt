@@ -1,0 +1,4 @@
+a systematic kernel function procedure for determining aerodynamic
+forces on oscillating or steady finite wings at subsonic speeds .
+watkins, c.e., woolston, d.s. and cunningham, h.j.a.
+nasa tr r-48, 1959 .

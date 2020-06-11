@@ -1,0 +1,3 @@
+small bending and stretching of sandwich type shells .
+reissner,e.
+naca tn.1832, 1949.

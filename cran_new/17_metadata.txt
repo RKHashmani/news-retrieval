@@ -1,0 +1,4 @@
+remarks on the eddy viscosity in compressible mixing flows .
+lu ting and paul a. libby
+polytechnic institute of brooklyn, and general applied science
+laboratories, inc.

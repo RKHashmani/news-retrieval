@@ -1,0 +1,4 @@
+the velocity distribution in the laminar boundary layer
+between parallel streams .
+lock,r.c.
+q. j. mech. app. math. 4, 1951, 42.

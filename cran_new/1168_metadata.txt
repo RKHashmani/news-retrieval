@@ -1,0 +1,4 @@
+damage incurred on a tilt-wing multipropeller vtol/stol
+aircraft operating over a level, gravel-covered surface .
+pegg,r.j.
+nasa tn.d535, 1960.

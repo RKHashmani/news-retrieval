@@ -1,0 +1,5 @@
+notes on waves through gases at pressures small compared
+with the magnetic pressure, with applications to upper
+atmosphere aerodynamics .
+lighthill,m.j.
+j. fluid mech. 9, 1960, 465.

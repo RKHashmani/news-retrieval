@@ -1,0 +1,4 @@
+a unified theory of plastic buckling of columns and
+plates .
+stowell,e.z.
+naca r.898, 1948.

@@ -1,0 +1,6 @@
+theoretical and experimental investigation of
+aerodynamic-heating and isothermal heat transfer parameters on
+a hemisphere nose with laminar boundary layer at supersonic
+mach numbers .
+stine,h.a. and wanlass,k.
+naca tn.3344, 1954.

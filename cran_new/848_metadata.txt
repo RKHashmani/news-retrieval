@@ -1,0 +1,5 @@
+the effect of an internal compressible fluid column
+on the breathing vibrations of a thin pressurised cylindrical
+shell .
+berry,j.g. and reissner,e.
+j. ae. scs. 25, 1958,288.

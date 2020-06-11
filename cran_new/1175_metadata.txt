@@ -1,0 +1,4 @@
+stresses from local loadings in cylindrical pressure
+vessels .
+bijlaard,p.p.
+asme trans. 77, 1953.

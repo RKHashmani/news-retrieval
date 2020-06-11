@@ -1,0 +1,5 @@
+the calculation of lateral stability derivatives of
+slender wings at incidence including fin effectiveness,
+and correlation with experiment .
+ross,a.j.
+rae r.aero.2647, 1961.

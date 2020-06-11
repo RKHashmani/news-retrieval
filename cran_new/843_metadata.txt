@@ -1,0 +1,4 @@
+a simplified method of elastic stability analysis for
+thin cylindrical shells .
+batdorf,s.b.
+i. donnell's equation.  naca tn.1341, 1947.

@@ -1,0 +1,5 @@
+a method of solution with tabulated results for the attached oblique
+shock wave system for surfaces at various angles of attack, sweep, and
+dihedral in an equilibrium real gas including the atmosphere .
+trimpi, r.l. and jones, r.a.
+nasa tr r-63, 1960 .

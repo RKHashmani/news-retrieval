@@ -1,0 +1,3 @@
+general airfoil theory .
+kussner, h.g.
+naca tm 979, 1941 .

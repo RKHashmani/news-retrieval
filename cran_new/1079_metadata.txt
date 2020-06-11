@@ -1,0 +1,3 @@
+finite difference formulae for the square lattices .
+nicley,w.g.
+q.j.mech. app. math, 1, p35.

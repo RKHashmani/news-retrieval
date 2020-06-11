@@ -1,0 +1,4 @@
+slipstream flow around several tilt-wing vtol aircraft models
+operating near the ground .
+william a. newsom, jr., and louis p. tosti
+technical note d-1382

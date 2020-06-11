@@ -1,0 +1,4 @@
+a study of inviscid flow about air foils at high supersonic
+speeds .
+eggers, a.j., syvertson, c.a., and krqus, s.
+naca report 1123

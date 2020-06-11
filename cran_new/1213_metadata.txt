@@ -1,0 +1,4 @@
+heat transfer to slender cones in hypersonic flow,
+including effects of yaw and nose bluntness .
+wittcliff,c.e. and wilson,m.r.
+j. ae. scs. 1962, 761.

@@ -1,0 +1,5 @@
+pressure loads produced on a flat-plate wing by rocket jets exhausting
+in a spanwise direction below the wing and perpendicular to a
+free-stream flow of mach number 2.0 .
+falangan, r.a. and janos, j. j.
+nasa tn d-893, 1961 .

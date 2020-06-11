@@ -1,0 +1,4 @@
+experimental study of the velocity and temperature
+distribution in a high-velocity vortex-type flow .
+hartnett,j.p. and eckert,e.r.g.
+asme trans. 70, 1957.

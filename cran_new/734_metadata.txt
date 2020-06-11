@@ -1,0 +1,4 @@
+the bending of uniformly loaded clamped plate in the
+form of a circular sector .
+hasse,h.r.
+q. j. mech. app. math. 3, 1950, 271.

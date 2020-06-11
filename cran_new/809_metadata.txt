@@ -1,0 +1,6 @@
+an investigation of the influence of lift on sonic-boom
+intensity by means of wind tunnel measurements of the
+pressure fields of several wing-body combinations at
+a mach number of 2. 01 .
+carlson,h.w.
+nasa tn.d881, 1961.

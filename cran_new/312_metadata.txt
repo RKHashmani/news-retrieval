@@ -1,0 +1,5 @@
+chordwise pressure distributions over several naca
+16 series airfoils at transonic mach numbers up to
+1.25 .
+ladson,c.l.
+nasa memo 6-1-59l, 1959.

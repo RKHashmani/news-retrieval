@@ -1,0 +1,4 @@
+a simplified method of elastic stability analysis for
+thin cylindrical shells .
+batdorf,s.b.
+naca r.874, 1947.

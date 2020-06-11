@@ -1,0 +1,5 @@
+exact solution of the neumann problem . calculation
+for non- circulatory plane and axially symmetric flows
+about or within arbitrary boundaries .
+smith,a.n.c. and pierce,j.
+3rd nat. con. app. mech. 1958.

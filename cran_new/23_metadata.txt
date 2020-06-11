@@ -1,0 +1,5 @@
+skin-friction and heat transfer characteristics of
+a laminar boundary layer on a cylinder in axial incompressible
+flow .
+seban,r.a. and bond,r.
+j. ae. scs. 18, 1951, 671.

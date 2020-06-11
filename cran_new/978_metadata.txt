@@ -1,0 +1,3 @@
+temperature profiles inafinite solid with moving boundary .
+dewey, c.f., schlesinger, s.i. and sashkin, l.
+j. aero. sc. v. 27, 1960 .

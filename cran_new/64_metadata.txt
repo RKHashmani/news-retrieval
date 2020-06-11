@@ -1,0 +1,4 @@
+unsteady oblique interaction of a shock wave with plane
+disturbances .
+moore,f.k.
+naca tn.2879, 1953.

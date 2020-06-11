@@ -1,0 +1,5 @@
+simplified method for determination of the critical
+height of distributed roughness particles for boundary
+layer transition at mach numbers from 0 to 5.
+braslow,a.l. and knox,e.c.
+naca tn.4363, 1958.

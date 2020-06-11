@@ -1,0 +1,5 @@
+design and calibration at low speeds of a static tube
+and a pitot-static tube with semi-ellipsoidal nose
+shapes .
+kettle,d.j.
+rae tn.aero.2247, 1953.

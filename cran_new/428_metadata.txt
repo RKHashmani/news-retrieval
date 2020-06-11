@@ -1,0 +1,4 @@
+the quasi-cylinder of specified thickness and shell
+loading in supersonic flow .
+portnoy,j.
+aero. quart. 11, 1960, 387.

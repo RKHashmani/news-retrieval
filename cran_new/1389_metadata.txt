@@ -1,0 +1,3 @@
+numerical construction of detached shock waves .
+garabedian,p.r.
+j.math.phys. 36, 1957, 192.

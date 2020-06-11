@@ -1,0 +1,4 @@
+numerical solution of the boundary layer equations
+without similarity assumptions .
+kramer,r.f. and lieberstein,h.
+j. ae. scs. 26, 1959, 508.

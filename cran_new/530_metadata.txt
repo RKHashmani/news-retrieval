@@ -1,0 +1,4 @@
+an aerodynamic analysis for flutter in oseen-type viscous
+flow .
+chu,wen-hwa.
+j. ae. scs. 29, 1962, 781.

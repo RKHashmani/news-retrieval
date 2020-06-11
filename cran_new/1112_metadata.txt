@@ -1,0 +1,4 @@
+unsteady aerodynamic forces on a slender body of revolution
+in supersonic flow .
+bond,r. and packard,b.b.
+nasa tn.d859, 1961.

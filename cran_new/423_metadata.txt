@@ -1,0 +1,4 @@
+an experimental investigation of the flow over blunt-nosed
+cones at a mach number of 5. 8.
+machell,r.m. and o'bryant,w.t.
+guggenheim aero. lab. memo 32, 1956.

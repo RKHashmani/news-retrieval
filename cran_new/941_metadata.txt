@@ -1,0 +1,4 @@
+viscous compressible and incompressible flow in slender
+channels .
+williams,j.c.
+a.i.a.a. j. 1963, 186.

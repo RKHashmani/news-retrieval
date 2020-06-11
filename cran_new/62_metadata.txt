@@ -1,0 +1,4 @@
+similar solutions for the compressible laminar boundary
+layer with heat transfer and pressure gradient .
+cohen,c.b. and reshotko,e.
+naca tn.3325, 1955.

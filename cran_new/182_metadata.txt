@@ -1,0 +1,3 @@
+effect of roughness on transition in supersonic flow .
+van driest,e.r. and blumer,c.b.
+agard r255, 1960.

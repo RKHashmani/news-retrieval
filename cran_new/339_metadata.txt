@@ -1,0 +1,4 @@
+experimental evaluation of heat transfer with transpiration
+cooling in a turbulent boundary layer at m=3 .2.
+bartle,e.r. and leadon,b.h.
+j. ae. scs. 27, 1960.

@@ -1,0 +1,4 @@
+the calculation of wall shearing stress from heat-transfer measurements
+in compressible flows .
+nick s. diaconis
+lewis flight propulsion laboratory, naca, cleveland, ohio

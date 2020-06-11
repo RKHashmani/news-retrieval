@@ -1,0 +1,5 @@
+static longitudinal stability characteristics of a blunted glider
+re-entry configuration having 79.5degree sweepback and 45degree dihedral at
+ a mach number of 6.2 and angles of attack up to 20degree .
+mayo, e.e.
+nasa tm x-222. 1959 .

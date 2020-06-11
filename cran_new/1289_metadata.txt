@@ -1,0 +1,5 @@
+numerical technique to lifting surface theory for calculation
+of unsteady aerodynamic forces due to continuous sinusoidal
+gusts on several wing planforms at sobsonic speeds .
+murrow,h.n., pratt,k.g. and drischler,j.a.
+nasa tn.d1501, 1963.

@@ -1,0 +1,3 @@
+the supersonic axial flow compressor .
+kantrowitz,a.
+naca r974, 1950.

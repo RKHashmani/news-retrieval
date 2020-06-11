@@ -1,0 +1,4 @@
+expansions at small reynolds number for the flow past
+a sphere and a circular cylinder .
+proudman,i. and pearson,j.r.a.
+j.fluid mech. 2, 1957, 237.

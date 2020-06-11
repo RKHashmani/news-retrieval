@@ -1,0 +1,4 @@
+self sustained oscillations of a system with non-linear
+damping of a particular type .
+neumark,s.
+rae tn.aero.2839, 1962.

@@ -1,0 +1,4 @@
+simplified laminar boundary layer calculations for
+bodies of revolution and for yawed wings .
+rott,n. and crabtree,l.f.
+j. ae. scs. 19, 1962.

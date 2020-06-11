@@ -1,0 +1,4 @@
+laminar mixing of a non-uniform stream with a fluid
+at rest .
+nash,j.f.
+arc 22245, 1960.

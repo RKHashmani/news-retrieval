@@ -1,0 +1,4 @@
+buckling of thin cylindrical shells under hoop stresses
+varying in axial direction .
+hoff,n.j.
+j. app. mech. 24, 1957, 405.

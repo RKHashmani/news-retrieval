@@ -1,0 +1,4 @@
+force measurements on square and dodecagonal sectional
+cylinders at high reynolds numbers .
+cowdrey,c.f. and lawes,j.a.
+npl. aero.351.

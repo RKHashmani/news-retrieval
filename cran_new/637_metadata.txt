@@ -1,0 +1,5 @@
+an integral equation relating the general time-dependent lift and
+downwash distributions on finite wings in subsonic flow .
+joseph a. drischler
+national aeronautics and space administration
+technical note d-1521

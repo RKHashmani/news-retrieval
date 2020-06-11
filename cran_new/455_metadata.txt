@@ -1,0 +1,4 @@
+modified cross-lees mixing theory for supersonic separated
+and reattaching flows .
+glick,h.s.
+galcit hyp. res. proj. memo 53, 1960.

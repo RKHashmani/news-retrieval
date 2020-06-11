@@ -1,0 +1,4 @@
+a nonlinear theory of bending and buckling of thin
+elastic shallow spherical shells .
+kaplan,a. and fung,y.c.
+naca tn.3212, 1954.

@@ -1,0 +1,4 @@
+an integral method for calculating heat and mass transfer
+in laminar boundary layers .
+culick,f.e.c.
+aiaa jnl. 1963, 783.

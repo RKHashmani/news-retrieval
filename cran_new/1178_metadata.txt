@@ -1,0 +1,4 @@
+buckling of ring-stiffened cylinders under a pure bending
+moment and a nonuniform temperature distribution .
+anderson,m.s. and card,m.f.
+nasa tn.d1513, 1962.

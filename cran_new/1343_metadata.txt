@@ -1,0 +1,5 @@
+formulas for the supersonic loading, lift and drag
+of flat swept back wings with leading edges behind
+the mach lines .
+cohen,d.
+naca r.1050, 1951.

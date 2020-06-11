@@ -1,0 +1,4 @@
+an approximate analytical method for studying entry
+into planetary atmospheres .
+chapman,d.r.
+nasa r-11, 1959.

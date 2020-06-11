@@ -1,0 +1,4 @@
+base pressure at supersonic speeds in the presence
+of a supersonic jet .
+craven,a.h.
+coa r.144, 1960.

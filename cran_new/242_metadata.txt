@@ -1,0 +1,4 @@
+an approximate theory of base pressure in two dimensional
+flow at supersonic speeds .
+kirk,f.n.
+rae tn.aero.2377, 1954.

@@ -1,0 +1,4 @@
+direct calculation of pressure distribution on blunt
+hypersonic nose shapes with sharp corners .
+holt,m.
+j. ae. scs. 1961, 872.

@@ -1,0 +1,4 @@
+effects of surface tension and viscosity on taylor
+instability .
+bellman,r. and pennington,r.h.
+q. app. math. 12, 1954.

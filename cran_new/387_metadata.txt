@@ -1,0 +1,4 @@
+heat transfer for laminar flow in an annulus with porous
+wall .
+inman,r.m.
+j. ae. scs. 26, 1959, 532.

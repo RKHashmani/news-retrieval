@@ -1,0 +1,4 @@
+some results on buckling and postbuckling of cylindrical
+shells .
+kempner,j.
+nasa tn.d1510, 1962, 173.

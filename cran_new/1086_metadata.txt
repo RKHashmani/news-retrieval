@@ -1,0 +1,4 @@
+a note on the numerical solution of fourth order differential
+equations .
+woods,l.c.
+aero. quart. 5, 1954, 176.

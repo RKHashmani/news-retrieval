@@ -1,0 +1,4 @@
+an improvement on donnell's approximation for thin-walled
+circular cylinders .
+morley,l.s.d.
+q. j. mech. app. math. 12, 1959.

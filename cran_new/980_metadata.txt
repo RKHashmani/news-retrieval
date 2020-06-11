@@ -1,0 +1,5 @@
+a method of computing the transient temperature of thick walls from
+arbitrary variation of adiabatic-wall temperature and heat-transfer
+coefficient .
+hills, p.r.
+naca report 1372, 1958 .

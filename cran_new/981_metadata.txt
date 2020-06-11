@@ -1,0 +1,4 @@
+solutions to the heat-conduction equation with time dependent boundary
+conditions .
+bergles, a.e. and kaye, j.
+j. aero. sc. v. 28, march 1961. pp 251-252 .

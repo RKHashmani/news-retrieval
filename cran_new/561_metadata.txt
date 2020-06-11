@@ -1,0 +1,4 @@
+a geometric problem related to the optimum distribution
+of lift on a planar wing in supersonic flow .
+graham,e.w.
+j. ae. scs. 1958, 771.

@@ -1,0 +1,5 @@
+some effects of variations in several parameters including
+fluid density on the flutter speed of light uniform
+cantilever wings .
+woolston,d.c. and castile,g.e.
+naca tn.2558, 1951.

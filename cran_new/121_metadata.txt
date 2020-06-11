@@ -1,0 +1,4 @@
+a theory for base pressures in transonic and supersonic
+flow .
+korst,h.h.
+j.app.mech. 23, 1956, 593.

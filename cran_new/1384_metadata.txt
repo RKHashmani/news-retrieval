@@ -1,0 +1,5 @@
+a theoretical calculation of the laminar boundary layer
+around an elliptic cylinder and its comparison with
+experiment .
+millikan,c.b.
+j. ae. scs. 3, 1936, 91.

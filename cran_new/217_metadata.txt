@@ -1,0 +1,3 @@
+flow pattern in a converging-diverging nozzle .
+oswatitsch,k. and rothstein,w.
+naca tm.1215.

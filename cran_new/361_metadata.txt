@@ -1,0 +1,4 @@
+the flow of a viscous liquid past a flat plate at small
+reynolds number .
+tomotika,s. and yosinobu,h.
+j. math.phys. 35, 1956.

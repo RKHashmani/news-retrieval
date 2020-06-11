@@ -1,0 +1,4 @@
+investigation of separated flows in supersonic and subsonic
+streams with emphasis on the effect of transition .
+chapman, d.r., kuehn, d. m. and larson, h. k.
+naca report 1356

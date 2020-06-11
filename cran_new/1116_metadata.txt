@@ -1,0 +1,3 @@
+general instability of stiffened cylinders .
+becker,h.
+naca tn.4237, 1958.

@@ -1,0 +1,4 @@
+laminar heat transfer around blunt bodies in dissociated
+air .
+kemp,n.h., rose,p.h. and detra,r.w.
+j.ae.sc. 26, 1959.

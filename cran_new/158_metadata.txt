@@ -1,0 +1,4 @@
+temperature charts for induction and constant temperature
+heating .
+heisler,m.p.
+a.s.m.e.trans. 14, 1947, 227.

@@ -1,0 +1,5 @@
+force-test investigation of the stability and control
+characteristics of a scale model of a tilt-wing vertical
+take-off and landing aircraft .
+newson,w.a. and tosti,l.p.
+nasa memo 11-3-58l, 1959.

@@ -1,0 +1,5 @@
+pressure measurements on sharp and blunt 5 and 15 half-angle
+cones at mach number 3.86 and angles of attack to
+100 .
+amick,j.l.
+nasa tn.d753, 1961.

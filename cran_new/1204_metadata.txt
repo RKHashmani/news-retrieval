@@ -1,0 +1,5 @@
+experimental effect of bluntness and gas rarefaction
+on drag coefficients and stagnation heat transfer on
+axisymmetric shapes in hypersonic flow .
+bloxson,d.e. and rhodes,b.v.
+j. ae. scs.1962.

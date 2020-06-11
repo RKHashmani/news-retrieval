@@ -1,0 +1,4 @@
+stability of thin torispherical shells under uniform
+internal pressure .
+mescall,j.
+nasa tn.d1510, 1962, 671.

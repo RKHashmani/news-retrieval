@@ -1,0 +1,4 @@
+the axisymmetric free-convection temperature field
+along a vertical thin cylinder .
+hama,p.r., recesso,j.v. and christiaens,j.
+j. ae. scs. 1959, 335.

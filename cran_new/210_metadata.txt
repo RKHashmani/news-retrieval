@@ -1,0 +1,3 @@
+propeller in yaw .
+ribner,h.s.
+naca r820, 1945.

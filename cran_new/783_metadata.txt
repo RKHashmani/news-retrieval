@@ -1,0 +1,4 @@
+a method for calculating the subsonic steady-state loading on an
+airplane with a wing of arbitrary planform and stiffness .
+gray, w.l.
+naca tn 3030, 1953 .

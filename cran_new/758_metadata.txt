@@ -1,0 +1,4 @@
+the lower bound of attainable sonic-boom over-pressure
+and design methods of approaching this limit .
+carlson,h.w.
+nasa tn.d1494, 1962.

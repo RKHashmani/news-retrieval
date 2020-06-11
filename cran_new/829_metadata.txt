@@ -1,0 +1,3 @@
+stability of thin-walled tubes under torsion .
+donnel,l.h.
+naca r.479, 1933, 12.

@@ -1,0 +1,5 @@
+a further note on the calculation of heat transfer
+through the axisymmetrical laminar boundary layer on
+a circular cylinder .
+bourne,d.e., davies,d.r. and wardle,s..
+q. j. mech. app. math. 12, 1959, 257.

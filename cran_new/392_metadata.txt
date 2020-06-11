@@ -1,0 +1,4 @@
+natural frequencies of rectangular plates with edges
+elastically restrained against rotation .
+jogarao,v. and lakshmikantham,c.
+j. ae. scs. 1957.

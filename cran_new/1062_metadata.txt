@@ -1,0 +1,4 @@
+an experimental and theoretical investigation of second-order
+wing-body interference at high mach number .
+wilby,p.g.
+ffa r.91, stockholm, 1962.

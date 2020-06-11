@@ -1,0 +1,4 @@
+inelastic buckling of initially imperfect cylindrical
+shells subject to axial compression .
+lee,l.h.n.
+j. ae. scs. 29, 1962, 87.

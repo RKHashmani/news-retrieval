@@ -1,0 +1,4 @@
+hypersonic viscous flow over a flat plate .
+lees, l. and probstein, r. f.
+princeton univ. aero eng. r195, 1952
+(abstract by e.m.keen)

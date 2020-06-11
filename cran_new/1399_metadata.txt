@@ -1,0 +1,3 @@
+buckling of transverse stiffened plates under shear .
+wang,t.k.
+j.app.mech. 3,1947, a269.

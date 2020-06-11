@@ -1,0 +1,4 @@
+iterative methods for solving partial difference equations of elliptic
+type .
+young, d.
+trans. amer. math. soc. vol. 76, p. 92, 1954 .

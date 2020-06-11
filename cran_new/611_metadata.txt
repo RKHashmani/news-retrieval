@@ -1,0 +1,4 @@
+an approximate solution of the compressible laminar
+boundary layer on a flat plate .
+monaghan,r.j.
+rae tn. aero.2025.

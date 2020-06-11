@@ -1,0 +1,4 @@
+heat transfer through laminar boundary layers on
+semi-infinite cylinders of arbitrary cross section .
+bourne,d.e. and wardle,s.
+j. ae. scs. 29, 1962, 460.

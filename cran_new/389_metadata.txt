@@ -1,0 +1,4 @@
+simple shear flow past a flat plate in a compressible
+viscous fluid .
+li,t.y.
+j. ae. scs. 22, 1955, 724.

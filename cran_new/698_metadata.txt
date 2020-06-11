@@ -1,0 +1,3 @@
+the unsteady lift of a wing of finite aspect ratio .
+jones, r.t.
+1940, naca rep. 681 .

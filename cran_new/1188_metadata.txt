@@ -1,0 +1,4 @@
+factors affecting lift-drag ratios at mach numbers
+from 5 to 20 .
+goebel,t.p. martin,j.j. and boyd,j.a.
+aiaa jnl. 1963, 640.

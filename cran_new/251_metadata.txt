@@ -1,0 +1,4 @@
+a collection of longitudinal stability derivatives
+of wings at supersonic speeds .
+naysmith,a.
+rae tn.aero.2423, 1956.

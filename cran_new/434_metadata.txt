@@ -1,0 +1,5 @@
+contributions of the wing panels to the forces and
+moments of supersonic wing-body combinations at combined
+angles .
+spahr,j.r.
+naca tn.4146, 1958.

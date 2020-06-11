@@ -1,0 +1,4 @@
+a new series for calculation of steady laminar boundary
+layer flows .
+gortler,h.
+j. math. mech. 6, 1957, 1.

@@ -1,0 +1,4 @@
+unsteady aerodynamic forces on slender supersonic aircraft
+with flexible wings and bodies .
+yates,j.e. and zeydel,e.f.e.
+aiaa jnl. 1, 1963, 350.

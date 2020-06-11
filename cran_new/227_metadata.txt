@@ -1,0 +1,4 @@
+a technique for improving the predictions of linearised
+theory on the drag of straight edge wings .
+randall,d.g.
+arc cp394, 1957.

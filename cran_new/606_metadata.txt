@@ -1,0 +1,4 @@
+formulae and approximations for aerodynamic heating rates in high speed
+flight .
+monaghan, r.j.
+rae. tn. aero. 2407 .

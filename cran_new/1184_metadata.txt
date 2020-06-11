@@ -1,0 +1,3 @@
+three dimensional effects in viscous wakes .
+steiger,m.h. and bloom,m.h.
+aiaa jnl. 1963,776

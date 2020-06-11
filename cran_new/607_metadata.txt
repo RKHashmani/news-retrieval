@@ -1,0 +1,3 @@
+duct flow in magnetohydrodynamics .
+chang,c.c. and lundgen,t.s.
+z.angew. math.phys., 12 100-114, 1961.

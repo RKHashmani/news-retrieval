@@ -1,0 +1,4 @@
+the calculation of loads on a supersonic weapon in
+the steady circling case .
+seal,d.m.
+rae tn.struct.275, 1960.

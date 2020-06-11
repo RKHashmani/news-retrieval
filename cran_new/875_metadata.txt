@@ -1,0 +1,3 @@
+models for aeroelastic investigation .
+templeton,h.
+arc cp.255, 1955.

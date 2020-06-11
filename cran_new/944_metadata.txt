@@ -1,0 +1,5 @@
+one dimensional heat conduction through the skin of
+a vehicle upon entering a planetary atmosphere at constant
+velocity and entry angle .
+wells,w.r. and mclellan,c.h.
+nasa tn.d1476, 1962.

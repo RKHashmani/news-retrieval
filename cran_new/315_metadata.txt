@@ -1,0 +1,4 @@
+scale effects at high subsonic and transonic speeds
+and methods for fixing transition in model experiments .
+haines,a.b., holder,d.w. and pearcey,h.h.
+arc r + m3012, 1954.

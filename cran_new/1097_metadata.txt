@@ -1,0 +1,3 @@
+experimental ablation cooling .
+bond,a.c., rashis,b. and levin,l.
+naca rm.l58e15a, 1958.

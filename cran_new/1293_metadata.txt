@@ -1,0 +1,3 @@
+design of stiffened cylinders in axial compression .
+hedgepeth,j.m.
+nasa tn.d1510, 1962.

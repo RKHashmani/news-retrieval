@@ -1,0 +1,4 @@
+an approximate treatment of unsteady heat conduction
+in semi-infinite solids with variable thermal properties .
+yang,k.t. and szewczyk,a.
+j. heat trans. asme trans. 81, 1959, 251.

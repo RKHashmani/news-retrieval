@@ -1,0 +1,6 @@
+tables of aerodynamic coefficients obtained from developed newtonian
+expressions for complete and partial conic and spheric bodies at
+combined angles of attack and sideslip with some comparisons with
+hypersonic experimental data .
+wells, w.r. and armstrong, w.o.
+nasa tr r -dash 127, 1962 .

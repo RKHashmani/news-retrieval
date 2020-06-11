@@ -1,0 +1,4 @@
+study of effects of sweep on the flutter of cantilever
+wings .
+barmby,j.g.
+naca r.1014, 1951.

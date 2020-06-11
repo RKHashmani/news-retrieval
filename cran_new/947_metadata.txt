@@ -1,0 +1,5 @@
+static aerodynamic characteristics of a short blunt
+10 semi-vertex angle cone at a mach number of 15 in
+helium .
+fohrman,m.j.
+nasa tn.d1648, 1963.

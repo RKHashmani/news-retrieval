@@ -1,0 +1,3 @@
+transient magnetohydrodynamic duct flow .
+lundgen,t.s., atabeck,b.h. and chang,c.c.
+phys. fluids 4, 1961, 1006.

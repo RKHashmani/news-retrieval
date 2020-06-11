@@ -1,0 +1,3 @@
+the ground effect on the jet flap in two dimensions .
+huggett,d.j.
+arc 19,713, 1957.

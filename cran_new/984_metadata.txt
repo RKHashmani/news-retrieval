@@ -1,0 +1,4 @@
+method of analysis for compressible flow through mixed-flow centrifugal
+impellers of arbitrary design .
+hamrick, j.t. et al.
+naca report 1082, 1952 .

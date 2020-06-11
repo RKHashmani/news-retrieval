@@ -1,0 +1,5 @@
+a theoretical investigation of the effects of mach number, reynolds
+number, wall temperature and surface curvature on laminar separation in
+supersonic flow .
+gadd, g.e.
+a.r.c. 18,494, june 1956 .

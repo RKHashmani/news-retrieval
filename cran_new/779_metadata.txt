@@ -1,0 +1,5 @@
+calculation and compilation of the unsteady lift functions for a rigid
+wing subjected to sinusoidal gusts and to sinusoidal sinking
+oscillations .
+drischler, j.a.
+naca tn 3748, october 1956

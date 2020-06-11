@@ -1,0 +1,4 @@
+calibration of the standard pitot-static head used
+in the rae low speed wind tunnels .
+kettle,d.j.
+rae tech.memo 222, 1951.

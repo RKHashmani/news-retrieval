@@ -1,0 +1,4 @@
+steady and fluctuating pressures at transonic speeds
+on two space-vehicle payload shapes .
+coe,c.f.
+nasa tm.x503, 1961.

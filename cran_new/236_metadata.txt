@@ -1,0 +1,3 @@
+criteria for thermodynamic equilibrium in gas flow .
+rudin,m.
+phys.fluids, 1, 1958.

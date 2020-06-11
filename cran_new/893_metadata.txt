@@ -1,0 +1,4 @@
+a new design of pitot-static tube with a discussion
+of pitot-static tubes and their calibration factors .
+salter,c.
+npl. aero. r.1013, 1962.

@@ -1,0 +1,4 @@
+an experimental investigation of the interaction between shock waves and
+ boundary layers .
+gadd, g.e., holder, d.w. and regan, j.d.
+proc. of the roy. soc. of london, ser. a., vol. 226, 1954, pp. 227-253

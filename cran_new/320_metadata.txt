@@ -1,0 +1,4 @@
+comment on improved numerical solution of the blasius problem with
+three-point boundary conditions .
+leigh, d. c.
+j. aero. sc. v. 29, may 1962 .

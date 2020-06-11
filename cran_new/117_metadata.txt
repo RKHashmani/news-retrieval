@@ -1,0 +1,3 @@
+the motion of a viscous liquid past a paraboloid .
+mather,d.j.
+q.j.mech.app.math. 14, 1961, 423.

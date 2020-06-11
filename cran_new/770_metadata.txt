@@ -1,0 +1,3 @@
+the flow of a compressible fluid past a sphere .
+caplan,c.
+naca tn.762, 1940.

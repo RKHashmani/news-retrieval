@@ -1,0 +1,5 @@
+bending of a uniformly loaded rectangular plate with
+two adjacent edges and the others either simply supported
+or free .
+huang,m.k. and conway,d.
+j.app.mech. 1952, 451.

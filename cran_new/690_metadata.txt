@@ -1,0 +1,4 @@
+investigaion of the flow over a spiked-nose hemisphere
+cylinder at a mach number of 6. 8.
+crawford,d.h.
+nasa tn.d118, 1959.

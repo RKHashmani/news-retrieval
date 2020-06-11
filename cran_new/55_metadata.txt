@@ -1,0 +1,5 @@
+separation, stability and other properties of compressible
+laminar boundary layer with pressure gradient and heat
+transfer .
+morduchow,m. and grape,r.g.
+naca tn.3296, 1955.

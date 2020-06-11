@@ -1,0 +1,3 @@
+finding zero's of arbitrary functions .
+frank,w.l.
+j. assoc. comput. mach. 5, 1958, 154.

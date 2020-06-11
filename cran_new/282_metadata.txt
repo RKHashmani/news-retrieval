@@ -1,0 +1,4 @@
+jet effects on base pressure of conical afterbodies
+at mach 1. 91 and 3. 12 .
+baughman,l.e. and kochendorfer,f.d.
+naca rm e57e06.

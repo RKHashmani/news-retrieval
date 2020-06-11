@@ -1,0 +1,4 @@
+reverse flow and variational theorems for lifting surfaces
+in nonstationary compressible flow .
+flax,a.h.
+j. ae. scs. 20, 1953.

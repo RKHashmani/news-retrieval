@@ -1,0 +1,4 @@
+approximate solutions of the incompressible laminar
+boundary layer equations for a plate in shear flow .
+yen,k.t.
+j. ae. scs. 22, 1955, 728.

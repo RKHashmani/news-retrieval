@@ -1,0 +1,3 @@
+theory of supersonic propeller aerodynamics .
+ordway,d.e. and hale,r.w.
+j. ae. scs. 1960, 437.

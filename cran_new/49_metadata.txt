@@ -1,0 +1,5 @@
+temperature and velocity profiles in the compressible
+laminar boundary layer with arbitrary distribution
+of surface temperature .
+chapman,d. and rubesin,m.
+j. ae. scs. 16, 1949, 547.

@@ -1,0 +1,4 @@
+measurements of stagnation point heat transfer at low
+reynolds number .
+ferri,a. and zakkay,v.
+j. ae. scs. 28, 1962, 847.

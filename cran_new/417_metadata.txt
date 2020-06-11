@@ -1,0 +1,3 @@
+on the stability of two dimensional parallel flows .
+lin,c.c.
+pt.iii - stability in a viscous fluid. q. app. math. 3, 1945, 273.

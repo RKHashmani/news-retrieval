@@ -1,0 +1,4 @@
+a wind-tunnel test technique for measuring the dynamic rotary
+stability derivatives at subsonic and supersonic speeds .
+report 1258
+benjamin h. beam

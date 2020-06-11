@@ -1,0 +1,3 @@
+an approach to the flutter problem in real fluids .
+rott,n. and george,m.b.t.
+inst. aero. scs. perp.509, 1955.

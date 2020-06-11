@@ -1,0 +1,5 @@
+an investigation of the pressure distribution on conical bodies in
+hypersonic flows .
+victor zakkay
+aerodynamics laboratory, polytechnic institute of brooklyn, freeport,
+n.y.

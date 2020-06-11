@@ -1,0 +1,4 @@
+some experimental studies of panel flutter at mach
+1 .3.
+sylvester,m.a. and baker,j.e.
+naca tn.3914, 1957.

@@ -1,0 +1,4 @@
+velocity and temperature distributions in the turbulent
+wake behind a heated body of revolution .
+hall,a.a. and hislop,g.s.
+proc.cam.phil.s. 34, 1938, 345.

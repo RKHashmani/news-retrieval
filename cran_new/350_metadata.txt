@@ -1,0 +1,3 @@
+laminar jet mixing of two compressible fluids with heat release .
+s. i. pai
+university of maryland

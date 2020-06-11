@@ -1,0 +1,4 @@
+incompressible nonviscous blade-to-blade flow through a pump rotor with
+splitter vanes .
+kramer, j.j. et al.
+nasa tn d-1186, 1962 .

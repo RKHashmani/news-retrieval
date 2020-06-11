@@ -1,0 +1,4 @@
+calculation of potential flow about bodies of revolution
+having axes perpendicular to the free-stream direction .
+hess,j.l.
+j. ae. scs. 29, 1962.

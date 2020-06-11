@@ -1,0 +1,4 @@
+experiments with a tapered swept-back wing of warren 12 planform at mach
+ numbers between 0.6 and 1.6 .
+hall, i.m. and rogers, e.w.e.
+a.r.c. r + m 3271, part ii, july 1960 .

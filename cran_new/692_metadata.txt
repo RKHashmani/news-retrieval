@@ -1,0 +1,5 @@
+investigation of the jet effects on a flat surface downstream of the
+exit of a simulated turbojet nacelle at a free-stream mach number of
+2.02 .
+bressette, w.e.
+naca rm l54e05a, 1954 .

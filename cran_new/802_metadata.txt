@@ -1,0 +1,4 @@
+the behaviour of supersonic flow past a body of revolution
+far from the axis .
+whitham,g.b.
+proc. roy. soc. a, 201, 1950, 89.

@@ -1,0 +1,5 @@
+an improved smoke generator for use in the visualisation
+of airflow, particularly boundary layer flow at high
+reynolds numbers .
+preston,j.h. and sweeting,n.e.
+arc r + m 2023, 1943.

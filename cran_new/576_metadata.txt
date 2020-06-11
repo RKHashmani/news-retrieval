@@ -1,0 +1,4 @@
+viscous and inviscid stagnation flow in a dissociated hypervelocity free
+ stream .
+inger, g.r.
+proc. 1962. heat transfer and fluid mech. inst .

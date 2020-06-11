@@ -1,0 +1,4 @@
+turbulent skin friction at high mach numbers and reynolds
+numbers in air and helium . nasa r82, 1960 .
+matting,f.w., chapman,d.r., nyholm,j.r. and thomas,a.g.
+naca r847, 1946.

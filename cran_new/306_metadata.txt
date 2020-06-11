@@ -1,0 +1,4 @@
+second approximation to laminar compressible boundary
+layer on flat plate in slip flow .
+maslen,s.h.
+naca tn.2818, 1952.

@@ -1,0 +1,4 @@
+concerning some solutions of the boundary layer equations
+in hydrodynamics .
+goldstein,s.
+proc. cam. phil. soc. 26, 1930, 18.

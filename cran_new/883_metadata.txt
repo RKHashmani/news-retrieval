@@ -1,0 +1,3 @@
+correlated fatigue data for aircraft structural joints .
+heywood,r.b.
+arc cp.227, 1955.

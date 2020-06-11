@@ -1,0 +1,4 @@
+an investigation of the use of an auxiliary slot to
+re-establish laminar flow on low drag aerofoils .
+cumming,r.w., gregory,b. and walker,w.s.
+arc r + m.2742, 1950.

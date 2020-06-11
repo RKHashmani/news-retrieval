@@ -1,0 +1,5 @@
+pressure distributions on three bodies of revolution
+to determine the effect of reynolds number up to and
+including the transonic speed range .
+swihart,j.m. and whitcomb,c.f.
+naca rm l53h04, 1953.

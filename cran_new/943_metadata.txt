@@ -1,0 +1,3 @@
+compressible free shear layer with finite initial thickness .
+denison,m.r. and baum,e.
+aiaa jnl. 1, 1963, 342.

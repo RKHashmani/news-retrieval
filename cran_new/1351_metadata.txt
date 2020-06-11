@@ -1,0 +1,4 @@
+exploratory tests of the effects of jet plumes on the
+flow over cone- cylinder flare bodies .
+falanga,r.a.
+nasa tn.d1000, 1962.

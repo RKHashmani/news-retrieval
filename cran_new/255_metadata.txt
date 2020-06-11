@@ -1,0 +1,4 @@
+an approximate solution of the turbulent boundary layer
+equations in incompressible and compressible .
+lilley,g.m.
+coa r134, 1960.

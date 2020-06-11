@@ -1,0 +1,4 @@
+a technique for rendering approximate solutions to
+physical problems uniformly valid .
+lighthill,m.j.
+phil. mag. 40, 1949, 1179.

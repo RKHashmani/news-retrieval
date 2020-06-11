@@ -1,0 +1,3 @@
+theory of radiation from luminous shock waves in nitrogen .
+hammerling,p., teare,j.d. and kivel,b.
+phys. fluids, 1959, 2, 422.

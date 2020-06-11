@@ -1,0 +1,4 @@
+an analytical treatment of aircraft propeller precession
+instability .
+reed,w.h. and bland,s.r.
+nasa tn.d659, 1961.

@@ -1,0 +1,4 @@
+use of subsonic kernel function in an influence-coefficient method of
+aeroelastic analysis and some comparisons with experiment .
+john l. sewall, robert w. herr, and charles e. watkins
+technical note d-515

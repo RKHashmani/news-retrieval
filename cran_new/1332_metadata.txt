@@ -1,0 +1,5 @@
+calculated spanwise lift distributions, influence functions
+and influence coefficients for unswept wings in subsonic
+flow .
+diederich,f.w. and zlotnick,m.
+naca r.1228, 1955.

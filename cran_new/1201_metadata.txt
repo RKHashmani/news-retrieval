@@ -1,0 +1,4 @@
+a study of slender shapes of minimum drag using the
+newton-busemann pressure coefficient law .
+miele,a.a.
+aiaa jnl. 1, 1963, 168.

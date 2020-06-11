@@ -1,0 +1,4 @@
+vorticity interaction at an axisymmetric stagnation
+point in a viscous incompressible fluid .
+kemp,n.h.
+j. ae. scs. 26, 1959.

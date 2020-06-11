@@ -1,0 +1,4 @@
+a study of flow changes associated with airfoil section
+drag rise at supercritical speeds .
+nitzburg,g.e. and crandall,s.
+naca tn.1813, 1949.

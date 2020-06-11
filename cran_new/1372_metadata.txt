@@ -1,0 +1,4 @@
+on axially symmetric, turbulent, compressible mixing in the presence
+of initial boundary layer .
+gdalia kleinstein
+polytechnic institute of brooklyn, farmingdale, n.y.

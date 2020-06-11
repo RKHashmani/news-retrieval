@@ -1,0 +1,3 @@
+bending tests of ring-stiffened circular cylinders .
+peterson,j.p.
+naca tn.3735, 1956.

@@ -1,0 +1,4 @@
+transonic flow in two dimensional and axially symmetrical
+nozzles .
+hall,i.m.
+arc 23,347, 1961.

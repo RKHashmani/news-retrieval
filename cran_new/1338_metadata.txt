@@ -1,0 +1,4 @@
+investigation to determine effects of center of gravity location on the
+transonic flutter characteristics of a 45degree sweptback wing .
+jones, g.w. and unangst, j.r.
+naca rm l55k30, 1956 .

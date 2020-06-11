@@ -1,0 +1,4 @@
+some effects of surface curvature on laminar boundary
+layer flow .
+murphy,j.s.
+j.aero.scs. 20, 1953, 338.

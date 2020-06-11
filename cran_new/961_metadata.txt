@@ -1,0 +1,4 @@
+compressible two dimensional jet mixing at constant
+pressure .
+korst,h.h. and page,r.h.
+univ. of illinois dept. mech. eng. me-tn-392-1, 1954.

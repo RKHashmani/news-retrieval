@@ -1,0 +1,5 @@
+q . app . math . 7, 1950, 381 . experiments on porous-wall
+cooling and flow separation control in a supersonic
+nozzle .
+green,l. and nall,k.l.
+j. ae. scs. 1959, 689.

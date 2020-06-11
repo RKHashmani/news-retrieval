@@ -1,0 +1,5 @@
+an experimental study of the effect of downwash from
+a twin-propeller vtol aircraft on several types of
+ground surfaces .
+o'bryan,t.c.
+nasa tn.d1239, 1962.

@@ -1,0 +1,5 @@
+the buckling of a square panel under shear, when one
+pair of opposite edges is clamped and the other pair
+is simply supported .
+leggett,d.m.a.
+arc r + m.1991, 1941.

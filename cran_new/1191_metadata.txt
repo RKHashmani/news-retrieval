@@ -1,0 +1,4 @@
+heat transfer to a hemisphere-cylinder at low reynolds
+numbers .
+hickman,r.s. and giedt,w.h.
+aiaa jnl. 1, 1963, 665.

@@ -1,0 +1,5 @@
+boundary-layer interaction on a yawed infinite wing in hypersonic
+flow .
+robert j. whalen
+principal scientist, flight sciences laboratory, inc.,
+buffalo, n.y.

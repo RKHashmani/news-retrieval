@@ -1,0 +1,3 @@
+photo-thermoelasticity .
+gerard,g and gilbert,a.c.
+j.app.mech. 24, 1957.

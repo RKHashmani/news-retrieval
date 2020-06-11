@@ -1,0 +1,4 @@
+theory and tunnel tests of rotor blade for supersonic
+turbines .
+stratford,b.s. and sansome,g.e.
+arc r + m 3275, 1960.

@@ -1,0 +1,5 @@
+an electronic apparatus for automatic recording of
+the logarithmic decrement and frequency for oscillations
+in the audio and subaudio frequency range .
+olsson,c.o. and orlik-ruckeman,k.
+aero. res. inst. sweden, r.52, 1954.

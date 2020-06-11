@@ -1,0 +1,3 @@
+elastic constants for corrugated core sandwich plates .
+libove,c. and hubka,r.e.
+naca tn.2289, 1951.

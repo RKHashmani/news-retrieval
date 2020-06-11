@@ -1,0 +1,3 @@
+the equilibrium piston technique for gun tunnel operation .
+east,r.a. and pennelegion,l.
+arc 22, 852, 1961.

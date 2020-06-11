@@ -1,0 +1,5 @@
+effects of boundary layer displacement and leading edge bluntness on
+pressure distribution, skin friction, and heat transfer of bodies at
+hypersonic speeds .
+bertram, m.h. and henderson, a.
+naca tn 4301, july 1958 .

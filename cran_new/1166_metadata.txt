@@ -1,0 +1,5 @@
+an investigation to determine conditions under which
+downwash from vtol aircraft will start surface erosion
+from various types of terrain .
+kuhn,r.e.
+nasa tn.d56, 1959.

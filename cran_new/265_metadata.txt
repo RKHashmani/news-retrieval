@@ -1,0 +1,4 @@
+some instabilities arising from the interaction between
+shock waves and boundary layer .
+lambourne,n.c.
+npl aero.348, 1958.

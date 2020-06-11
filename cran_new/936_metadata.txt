@@ -1,0 +1,4 @@
+a donnell-type theory for asymmetrical bending and
+buckling of thin conical shells .
+seide,p.
+j. app. mech. 24, 1957, 547.

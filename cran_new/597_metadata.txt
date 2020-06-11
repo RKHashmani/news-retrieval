@@ -1,0 +1,4 @@
+measurements of pitching moment derivatives for blunt-nose aerofoils
+oscillating in two-dimensional supersonic flow .
+pugh, p.g. and woodgate, l.
+arc. 23, 012, 1961 .

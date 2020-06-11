@@ -1,0 +1,3 @@
+a refinement of the linearised transonic flow theory .
+hosowaka,a.
+j.phys.soc. japan, 15, 1960.

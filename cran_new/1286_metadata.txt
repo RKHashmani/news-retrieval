@@ -1,0 +1,4 @@
+equilibrium real-gas performance charts for a shypersonic
+shock-tube wind-tunnel employing nitrogen .
+bernstein,l.
+arc cp.633, 1961.

@@ -1,0 +1,3 @@
+inviscid hypersonic flow over blunt-nosed slender bodies .
+lees,l. and kubota,t.
+j. ae. scs. 24, 1957, 195.

@@ -1,0 +1,4 @@
+general theory of large deflections of thin shells
+with special applications to conical shells .
+dill,e.h.
+nasa tn.d826, 1961.

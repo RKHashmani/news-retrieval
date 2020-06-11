@@ -1,0 +1,4 @@
+an approximate boundary layer theory for semi-infinite cylinders of
+arbitrary cross-section .
+varley, e.
+j. fluid mech. vol. 3. 1958, p. 601-614 .

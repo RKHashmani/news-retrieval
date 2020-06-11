@@ -1,0 +1,4 @@
+investigation of wing flutter at transonic speeds for six systematically
+ varied wing plan forms .
+jones, g.w. and dubose, h.c.
+naca rml53g10a, 1953 .

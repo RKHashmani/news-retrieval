@@ -1,0 +1,4 @@
+effect of uniformly distributed roughness on turbulent
+skin-friction drag at supersonic speeds .
+goddard,f.e.
+j. ae. scs. 1959, 1.

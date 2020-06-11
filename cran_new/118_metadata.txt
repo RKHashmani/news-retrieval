@@ -1,0 +1,4 @@
+the transonic flow of a compressible fluid through
+an axially symmetrical nozzle .
+tomotika,s. and hasimoto,z.
+j.math.phys. 29, 1950, 105.

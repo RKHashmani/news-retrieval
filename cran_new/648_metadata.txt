@@ -1,0 +1,4 @@
+the approximate analysis of certain boundary value
+problems .
+conway,h.d.
+j. app. mech. 1960, 275.

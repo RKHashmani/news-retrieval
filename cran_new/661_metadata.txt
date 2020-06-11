@@ -1,0 +1,5 @@
+summary of laminar boundary layer solutions for
+wedge-type flow over convection and transpiration cooled
+surfaces .
+livingood,j.n.b. and donoughe,p.
+naca tn.3588, 1955.

@@ -1,0 +1,4 @@
+preliminary analysis of axial flow compressors having
+supersonic velocity at the entrance of the stator .
+ferri,a.
+naca rm l9g06, 1949.

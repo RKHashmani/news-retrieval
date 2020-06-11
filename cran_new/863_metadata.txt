@@ -1,0 +1,3 @@
+loads and deformations of buckled rectangular plates .
+stein,m.
+nasa tr r40, 1959.

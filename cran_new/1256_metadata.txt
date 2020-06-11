@@ -1,0 +1,4 @@
+fluctuating lift and drag acting on a cylinder in a
+flow at supercritical reynolds numbers .
+fung,y.c.
+j. ae. scs.1960, 801.

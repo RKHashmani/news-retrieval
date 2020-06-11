@@ -1,0 +1,5 @@
+aerodynamic investigation of a parabolic body of revolution
+at mach number of 1. 92 and some effects of an annular
+supersonic jet exhausting from the base .
+love,e.s.
+naca tn.3709, 1956.

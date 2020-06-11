@@ -1,0 +1,5 @@
+a numerical comparison between exact and approximate
+theories of hypersonic inviscid flow past slender blunt
+nosed bodies .
+cheng,k.h. and chang,a.l.
+ars j. 31, 1961.

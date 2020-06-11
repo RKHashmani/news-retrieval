@@ -1,0 +1,4 @@
+compressive buckling of simply supported curved plates
+and cylinders of sandwich construction .
+stein,m. and mayers,j.
+naca tn.2601, 1952.

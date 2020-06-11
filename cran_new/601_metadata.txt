@@ -1,0 +1,4 @@
+calculation of the flow past slender delta wings with
+leading edge separation .
+mangler,k.w. and smith,j.
+rae r. aero.2593, 1957.

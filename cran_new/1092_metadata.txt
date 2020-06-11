@@ -1,0 +1,4 @@
+wing-nacelle-propeller interference for wings of various
+spans . force and pressure distribution tests .
+robinson,r.g. and herrnstein,w.h.
+naca r.569, 1936.

@@ -1,0 +1,6 @@
+the flow past pitot tube at low reynolds numbers, part 1-dash the
+numerical solution of the navier-stokes equations for steady viscous
+axisymmetric flow, part 2-dash the effects of viscosity and orifice
+size on a pitot tube at low reynolds numbers .
+lester, w.g.s.
+o.u.e.l. no. 136, a.r.c. 22, 070, f.m. 2983 .

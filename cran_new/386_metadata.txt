@@ -1,0 +1,3 @@
+a generalised porous-wall ?couette type? flow .
+cramer,k.r.
+j. ae. scs. 26, 1959, 121.

@@ -1,0 +1,4 @@
+bending and compression tests of pressurised ring-stiffened
+cylinders .
+dow,m.b. and peterson,j.p.
+nasa tn.d360, 1960.

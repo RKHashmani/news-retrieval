@@ -1,0 +1,4 @@
+an investigation of wing-aileron flutter using ground
+launched rocket models .
+gaukroger,d.r. and curran,j.k.
+rae tn. struct.308, 1962.

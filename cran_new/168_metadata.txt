@@ -1,0 +1,4 @@
+heat conduction through a gas with one inert internal
+model .
+clarke,j.f.
+coa n102, 1960.

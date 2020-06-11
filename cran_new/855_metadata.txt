@@ -1,0 +1,4 @@
+simplified formulas for boundary value problems of
+the thin-- walled circular cylinder .
+pohle,f.v. and nardo,s.w.
+j. app. mech. 22, 1955.

@@ -1,0 +1,4 @@
+the asymptotic boundary layer on a circular cylinder
+in axial incompressible flow .
+stewartson,k.
+q.app.math. 13, 1955, 113.

@@ -1,0 +1,4 @@
+the interaction between boundary layer and shock waves in transonic
+flow .
+liepmann, h. w.
+j. aero. sc. v. 13, december, 1946 .

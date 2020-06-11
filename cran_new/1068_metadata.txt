@@ -1,0 +1,4 @@
+instability analysis of cylindrical shells under hydrostatic
+pressure .
+herrmann,g.
+nasa tn.d1510, 1962, 239.

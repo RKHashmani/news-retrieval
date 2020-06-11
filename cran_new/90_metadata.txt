@@ -1,0 +1,4 @@
+periodic temperature distributions in a two-layer composite
+slab .
+stonecypher,t.e.
+j. ae. scs. 27, 1960, 152.

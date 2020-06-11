@@ -1,0 +1,4 @@
+general instability of a ring stiffened circular cylindrical
+shell under hydrostatic pressure .
+bodner,s.r.
+j. app. mech. 24, 1957, 269.

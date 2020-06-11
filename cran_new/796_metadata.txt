@@ -1,0 +1,5 @@
+an investigation at transonic speeds of the performance of various
+distributed roughness bands used to cause boundary layer transition
+near the leading edge of a cropped delta half-wing .
+rogers, e.w.e. and hall, i.m.
+a.r.c., c.p. 481, may 1959 .

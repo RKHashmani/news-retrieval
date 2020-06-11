@@ -1,0 +1,4 @@
+radiative heat transfer during atmosphere entry at
+parabolic velocity .
+yoshikawa,k.k. and wick,b.h.
+nasa tn.d1074, 1961.

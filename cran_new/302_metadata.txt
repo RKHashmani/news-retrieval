@@ -1,0 +1,4 @@
+approximations for the thermodynamic and transport properties of high
+temperature air .
+hansen, c. f.
+nasa tr r 50, 1959 .

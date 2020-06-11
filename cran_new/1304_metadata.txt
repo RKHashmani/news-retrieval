@@ -1,0 +1,3 @@
+newtonian flow over a surface .
+giraud,j.p.
+colston symposium on hypersonic flow, bristol, 1959.

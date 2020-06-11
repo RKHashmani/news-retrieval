@@ -1,0 +1,4 @@
+conduction of heat in a solid with a power law of heat
+transfer at its surface .
+jaeger,j.c.
+proc. cam.phil. s. 46, 1950, 634.

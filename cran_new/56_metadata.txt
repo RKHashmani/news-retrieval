@@ -1,0 +1,5 @@
+an analysis of the applicability of the hypersonic
+similarity law to the study of the flow about bodies
+of revolution at zero angle of attack .
+ehret,d.m.
+naca tn.2250, 1950.

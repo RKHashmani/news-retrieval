@@ -1,0 +1,5 @@
+effect of distributed three-dimensional roughness and
+surface cooling on boundary layer transition and lateral
+spread of turbulence at supersonic speeds .
+braslow,a.l.
+nasa tn.d53, 1959.

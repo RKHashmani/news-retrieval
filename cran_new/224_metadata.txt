@@ -1,0 +1,4 @@
+quasi-cylindrical surfaces with prescribed loadings
+in the linearised theory of supersonic flow .
+jones,j.g.
+rae tn.aero.2769.

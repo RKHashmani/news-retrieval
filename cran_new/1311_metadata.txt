@@ -1,0 +1,4 @@
+some simple solutions to the problem of predicting
+boundary layer self-induced pressures .
+bertram,m.h. and blackstock,t.a.
+nasa tn.d798, 1961.

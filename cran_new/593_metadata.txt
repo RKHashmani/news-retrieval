@@ -1,0 +1,4 @@
+theoretical considerations of flutter at high mach
+number .
+morgan,h.g., runyam,h.l. and huckell,v.
+j. ae. scs. 25, 1958.

@@ -1,0 +1,5 @@
+pressure distribution induced on a flat plate at a free-stream
+mach number of 1.39 by rockets exhausting upstream and downstream .
+abraham leiss
+national aeronautics and space administration
+technical note d-1507

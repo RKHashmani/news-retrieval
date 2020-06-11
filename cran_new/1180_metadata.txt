@@ -1,0 +1,4 @@
+approximate analysis of the slot injection of a gas
+in laminar flow .
+libby,p.a. and schetz,j.a.
+aiaa jnl. 1963, 1056.

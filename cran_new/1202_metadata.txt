@@ -1,0 +1,4 @@
+uniformly valid second-order solution for supersonic
+flow over cruciform surfaces .
+wallace,j. and clarke,j.h.
+aiaa jnl. 1, 1963, 179.

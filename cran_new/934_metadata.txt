@@ -1,0 +1,5 @@
+stability of cylindrical and conical shells of circular
+cross section, with simultaneous action of axial compression
+and external normal pressure .
+mushtari,k.m. and sachenkov,a.v.
+naca tm.1433, 1958.

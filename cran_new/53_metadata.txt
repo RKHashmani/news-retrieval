@@ -1,0 +1,4 @@
+transition reynolds numbers of separated flows at
+supersonic speeds .
+larson,h.k. and keating,s.j.
+nasa tn.d349, 1960.

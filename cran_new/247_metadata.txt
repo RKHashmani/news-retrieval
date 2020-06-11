@@ -1,0 +1,5 @@
+the calculation of the pressure distribution on thick
+wings of small aspect ratio at zero lift in subsonic
+flow .
+weber,j.
+arc r + m 2993.

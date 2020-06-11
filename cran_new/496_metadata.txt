@@ -1,0 +1,4 @@
+a theory of transonic aileron buzz, neglecting viscous
+effects .
+eckhaus,w.
+j. ae. scs. 29, 1962, 712.

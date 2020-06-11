@@ -1,0 +1,4 @@
+laminar heat-transfer and pressure measurements over blunt-nosed
+cones at large angle of attack .
+victor zakkay
+research associate, polytechnic institute of brooklyn, freeport, n.y.

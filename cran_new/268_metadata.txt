@@ -1,0 +1,3 @@
+several magnetohydrodynamic free-convection solutions .
+cramer,k.r.
+5th nat. heat transfer con. 1962.

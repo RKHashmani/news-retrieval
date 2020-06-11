@@ -1,0 +1,3 @@
+steady flow in the laminar boundary layer of a gas .
+illingworth,c.r.
+proc. roy. soc. a, 199, 1949.

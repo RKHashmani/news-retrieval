@@ -1,0 +1,3 @@
+two and three-dimensional unsteady lift problems in high speed flight .
+lomax et al.
+naca rep. 1077, 1952 .

@@ -1,0 +1,5 @@
+method for calculation of compressible laminar boundary
+layer characteristics in axial pressure gradient with
+zero heat transfer .
+morduchow,m. and clarke,j.h.
+naca tn.2784, 1952.

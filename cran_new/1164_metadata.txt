@@ -1,0 +1,5 @@
+effect of ground proximity on the aerodynamic characteristics
+of a four- engined vertical take-off and landing transport
+airplane model with tilting wing and propellers .
+newson,w.a.
+naca tn.4124, 1957.

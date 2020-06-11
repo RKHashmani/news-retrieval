@@ -1,0 +1,4 @@
+an investigation of the effect of downwash from a vtol
+aircraft and a helicopter in the ground environment .
+o'bryan,t.c.
+nasa tn.d977, 1961.

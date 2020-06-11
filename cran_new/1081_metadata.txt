@@ -1,0 +1,4 @@
+numerical solution of the navier-stokes equations for the flow around a
+circular cylinder at reynolds number 40 .
+kawaguti, m.
+j. phys. soc. japan, v. 8, no. 6 p. 747, 1953 .

@@ -1,0 +1,4 @@
+charts for equilibrium flow properties of air in
+hyper-velocity nozzles .
+jorgensen,l.h. and baum,g.m.
+nasa tn.d1333, 1962.

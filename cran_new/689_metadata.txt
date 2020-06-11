@@ -1,0 +1,5 @@
+investigation of the laminar aerodynamics heat transfer
+characteristics of a hemisphere cylinder in the langley
+11-inch hypersonic tunnel at a mach number of 6. 8.
+crawford,d.h. and mccauley,w.d.
+naca r.1323, 1957.

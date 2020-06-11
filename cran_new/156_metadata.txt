@@ -1,0 +1,3 @@
+the effect of shallow water on wave resistance .
+havelock,t.h.
+proc.roy.s.a, 100,1922,499.

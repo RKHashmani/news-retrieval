@@ -1,0 +1,4 @@
+a second order shock-expansion method applicable to
+bodies of revolution near zero lift .
+syvertson,c.a. and denis,d.h.
+naca tn.3527.

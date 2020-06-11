@@ -1,0 +1,4 @@
+a study of the simulation of flow with free stream mach number 1 in a
+choked wind tunnel .
+spreiter, j.r., smith, d.w. and hyett, b.j.
+nasa tr r-73, 1960 .

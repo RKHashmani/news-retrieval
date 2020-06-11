@@ -1,0 +1,4 @@
+surface pressure distributions with a sonic jet normal to adjacent flat
+surfaces at mach 2.92 to 6.4 .
+cubbison, r.w., anderson, b.h. and ward, j.j.
+nasa tn d-580, february 1961 .

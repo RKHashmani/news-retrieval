@@ -1,0 +1,4 @@
+survey of inviscid hypersonic flow theory for geometrically
+slender shapes .
+crabtree,l.f.
+rae tn. aero.2695, 1960.

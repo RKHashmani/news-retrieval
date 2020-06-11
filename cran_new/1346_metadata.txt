@@ -1,0 +1,3 @@
+modulated entry .
+grant,f.c.
+nasa tn.d452, 1960.

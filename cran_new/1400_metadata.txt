@@ -1,0 +1,4 @@
+the buckling shear stress of simply-supported infinitely
+long plates with transverse stiffeners .
+kleeman,p.w.
+arc r + m.2971, 1953.

@@ -1,0 +1,4 @@
+boundary layer displacement and leading edge bluntness effects in high
+temperature hypersonic flow .
+cheng, h.k., hall,j.g., golian, t.c. and hertzberg, a.
+j. aero. sc. v. 28, pp 353-381, 410. 1961 .

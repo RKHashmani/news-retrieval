@@ -1,0 +1,3 @@
+the behaviour of non-linear systems .
+clauser,f.h.
+j.aero. scs. 23, 1958, 411.

@@ -1,0 +1,4 @@
+compression tests on circular cylinders stiffened longitudinally
+by closely spaced z-section stringers .
+peterson,j.p. and dow,m.b.
+nasa memo. 2-12-59l, 1959.

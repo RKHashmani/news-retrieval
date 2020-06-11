@@ -1,0 +1,3 @@
+the axisymmetric boundary layer on a long thin cylinder .
+glauert,m.b. and lighthill,m.j.
+proc. roy. soc. a, 230, 1955, 188.

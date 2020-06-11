@@ -1,0 +1,4 @@
+vorticity effect on the stagnation point flow of a viscous
+incompressible fluid .
+rott, n. and lenard, m.
+j. aero. sc. v. 26, august, 1959 .

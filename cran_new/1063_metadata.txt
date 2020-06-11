@@ -1,0 +1,4 @@
+on obtaining solutions to the navier-stokes equations
+with high speed digital computers .
+russell,d.b.
+arc 23,797, 1962.

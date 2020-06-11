@@ -1,0 +1,4 @@
+pitch-yaw stability of a missile oscillating in roll
+via the second method of lyapunov .
+parks,p.c.
+j. ae. scs. 29, 1962, 874.

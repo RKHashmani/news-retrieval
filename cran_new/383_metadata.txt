@@ -1,0 +1,4 @@
+integration of the boundary layer equations for a plane in compressible
+flow with heat transfer .
+meksyn, d.
+proc. roy. soc. series a. v. 231, 1955. pp 274-180 .

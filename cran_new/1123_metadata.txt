@@ -1,0 +1,4 @@
+an extension of donnell's equation for a circular cylindrical shell .
+tsu-tao loo
+associate professor of mechanics, rensselaer polytechnic institute,
+troy, n.y.

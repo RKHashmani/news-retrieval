@@ -1,0 +1,4 @@
+a method of calculating velocity distribution for turbulent
+boundary layers in adverse pressure distributions .
+uram,e.m.
+j. ae. scs. 1960, 659.

@@ -1,0 +1,4 @@
+the test performance of highly loaded turbine stages
+designed for high pressure ratio .
+johnston,i.h. and dransfield,d.c.
+ngte r235, 1959.

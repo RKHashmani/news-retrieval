@@ -1,0 +1,4 @@
+real-gas laminar boundary layer skin friction and heat
+transfer .
+wilson,r.e.
+j. ae. scs. 29, 1962, 640.

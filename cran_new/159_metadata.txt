@@ -1,0 +1,3 @@
+numerical methods for transient heat flow .
+dusinberre,g.m.
+a.s.m.e.trans. 12, 1945, 703.

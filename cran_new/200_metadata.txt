@@ -1,0 +1,5 @@
+calculation of derivatives for a cropped delta wing
+with subsonic leading edges oscillating in a supersonic
+airstream .
+watson,j.
+arc r + m 3060, 1958.

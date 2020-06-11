@@ -1,0 +1,3 @@
+axisymmetric snap buckling of conical shells .
+newman,m. and reiss,e.l.
+nasa tn.d1510, 1962, 451.

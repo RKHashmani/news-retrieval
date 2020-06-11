@@ -1,0 +1,4 @@
+buckling due to thermal stress of cylindrical shells
+subjected to axial temperature distributions .
+johns,d.j.
+coa r.147, 1961.

@@ -1,0 +1,5 @@
+heat transfer to constant property laminar boundary
+layer flows with power function free stream velocity
+and wall temperature variation .
+levy,s.
+j.ae.scs. 19, 1952.

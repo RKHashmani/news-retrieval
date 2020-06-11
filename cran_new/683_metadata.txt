@@ -1,0 +1,5 @@
+the use of conical camber to produce flow attachment at the leading
+edge of a delta wing and to minimize the lift-dependent drag at sonic
+and supersonic speeds .
+smith,j.h.b. and mangler, k.w.
+r.a.e. rep. aero. 2584. arc 19,961, september 1957 .

@@ -1,0 +1,4 @@
+methods for estimating lift interference of wing-body
+combinations at supersonic speeds .
+nielsen,j.n. and kaattari,g.e.
+naca til.2950.

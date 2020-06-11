@@ -1,0 +1,4 @@
+cylindrical shock waves produced by instantaneous energy
+release .
+lin,s.c.
+j.app.phys. 25, 1954, 54.

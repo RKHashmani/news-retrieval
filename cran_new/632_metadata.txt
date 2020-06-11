@@ -1,0 +1,4 @@
+calculated lift distributions in incompressible flow
+on some sweptback wings .
+bagley,j.a. and joyce,g.m.
+rae tn. aero.2836, 1962.

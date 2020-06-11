@@ -1,0 +1,3 @@
+aerodynamic heating of blunt nose shapes at mach numbers up to 14 .
+stoney, w.e.
+naca rm l58 e05a, 1958 .

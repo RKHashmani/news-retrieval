@@ -1,0 +1,4 @@
+non-linear shallow shell analysis by the matrix force
+method .
+lansing,w., jones,i.w. and ratner,p.
+nasa tn.d1510, 1962, 753.

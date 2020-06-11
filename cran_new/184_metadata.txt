@@ -1,0 +1,3 @@
+scale models for thermo-aeroelastic research .
+molyneux,w.g.
+rae tn.struct.294, 1961.

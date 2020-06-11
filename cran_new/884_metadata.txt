@@ -1,0 +1,3 @@
+the estimation of fatigue damage on structural elements .
+chilver,a.h.
+rae tn.struct.125, 1954.

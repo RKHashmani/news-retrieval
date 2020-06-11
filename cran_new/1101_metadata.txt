@@ -1,0 +1,3 @@
+a sensor for obtaining ablation rates .
+winters, c.w. and bracalente, e.m.
+nasa tn d-800, 1961 .

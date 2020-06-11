@@ -1,0 +1,4 @@
+the fundamental solution for small steady three dimensional
+disturbances to a two dimensional parallel shear flow .
+lighthill,m.j.
+j. fluid mech. 3, 1957, 113.

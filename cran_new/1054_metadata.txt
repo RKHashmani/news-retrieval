@@ -1,0 +1,4 @@
+iterative solutions for the non-linear bending of circular
+plates .
+keller,h.b. and reiss,e.l.
+comm. on pure and app. math. 11, 1958, 273.

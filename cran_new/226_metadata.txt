@@ -1,0 +1,4 @@
+aerofoil theory of a flat delta wing at supersonic
+speeds .
+robinson,a.
+rae r.aero.2151, 1946.

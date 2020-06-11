@@ -1,0 +1,4 @@
+heat transfer through the laminar boundary layer on
+a circular cylinder in axial incompressible flow .
+bourne,d.e. and davies,d.r.
+q. j. mech. app. math. 11, 1958, 52.

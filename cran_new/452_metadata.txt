@@ -1,0 +1,3 @@
+symmetric joukowsky airfoils in shear flow .
+tsien,h.s.
+q. app. math. 1, 1943, 130.

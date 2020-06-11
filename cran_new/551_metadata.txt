@@ -1,0 +1,4 @@
+analysis of a loaded cantilever plate by finite difference
+methods .
+livesley,r.k. and birchall,p.c.
+rae tn. ms26, 1956.

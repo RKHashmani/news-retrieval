@@ -1,0 +1,3 @@
+some problems on heat conduction in stratiform bodies .
+vodicka,v.
+j. phys. soc. japan, 14, 1959, 216.

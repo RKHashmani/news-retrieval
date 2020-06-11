@@ -1,0 +1,4 @@
+limit analysis of symmetrically loaded thin shells
+of revolution .
+drucker,d.c. and shield,r.t.
+j. app. mech. 26, 1959, 61.

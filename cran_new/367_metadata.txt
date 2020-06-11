@@ -1,0 +1,4 @@
+control system and analysis and design via the second method of
+lyapunov .
+kalman, r. e. and bertram, j. e.
+trans. asme. series d, v. 82, june 1960 .

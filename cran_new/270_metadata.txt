@@ -1,0 +1,5 @@
+on combined free and forced convection laminar magnetohydrodynamic
+flow and heat transfer in channels with transverse
+magnetic field .
+mori,y.
+int. devel. in heat transfer,1961.

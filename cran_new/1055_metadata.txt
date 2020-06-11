@@ -1,0 +1,3 @@
+non-linear bending and buckling of circular plates .
+keller,h.b. and reiss,e.l.
+proc. 3rd u.s. nat. cong. app. mech. 1958, 375.

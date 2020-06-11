@@ -1,0 +1,3 @@
+the production of uniform shear flow in a wind tunnel .
+owen,p.r. and zienkiewicz,h.k.
+j.fluid mech. 2, 1957, 521.

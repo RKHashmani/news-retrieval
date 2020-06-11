@@ -1,0 +1,5 @@
+stability investigation of a blunted cone and a blunted
+ogive with a flared cylinder afterbody at mach numbers
+from 0. 30 to 2. 85 .
+coltrane,l.c.
+nasa tn.d1506, 1962.

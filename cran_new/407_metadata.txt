@@ -1,0 +1,4 @@
+stationary convection flow of an electrically conducting
+liquid between parallel plates in a magnetic field .
+gershuni,g.z. and shukhovitskii,e.m.
+soviet physics,34, 1958.

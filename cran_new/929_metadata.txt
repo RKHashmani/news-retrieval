@@ -1,0 +1,3 @@
+stability of the cylindrical shell of variable curvature .
+marguerre,k.
+naca tm.1302,1951.

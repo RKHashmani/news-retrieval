@@ -1,0 +1,4 @@
+measurement of two dimensional derivatives on a wing-aileron-tab
+system .
+wight,k.c.
+part i, arc r + m 2934, 1955.  part ii arc r + m 3029, 1958.

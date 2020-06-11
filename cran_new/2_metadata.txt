@@ -1,0 +1,6 @@
+simple shear flow past a flat plate in an incompressible fluid of small
+viscosity .
+ting-yili
+department of aeronautical engineering, rensselaer polytechnic
+institute
+troy, n.y.

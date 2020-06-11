@@ -1,0 +1,4 @@
+an analysis of base pressure at supersonic speeds and
+comparison with experiment .
+chapman,d.
+naca tn.2137, 1950.

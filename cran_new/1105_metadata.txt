@@ -1,0 +1,4 @@
+numerical solutions for supersonic flow of an ideal
+gas around blunt two-dimensional bodies .
+fuller,f.b.
+nasa tn.d791, 1961.

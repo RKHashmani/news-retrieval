@@ -1,0 +1,4 @@
+aerodynamic forces, moments and stability derivatives
+for slender bodies of general cross section .
+sacks,a.h.
+naca tn.3283, 1954.

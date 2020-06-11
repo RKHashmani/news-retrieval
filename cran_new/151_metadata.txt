@@ -1,0 +1,3 @@
+the generation of noise by isotropic turbulence .
+proudman,j.
+proc.roy.s.a 214,1952,119.

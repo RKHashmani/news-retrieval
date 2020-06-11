@@ -1,0 +1,5 @@
+steady and transient free convection of an electrically
+conducting fluid from a vertical plate in the presence
+of a magnetic field .
+gupta,s.
+app. sc. res. 9, 1959.

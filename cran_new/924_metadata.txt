@@ -1,0 +1,5 @@
+a method for calculating the lift and centre of pressure
+of wing-body-tail combinations at subsonic, transonic
+speeds .
+nielsen,j.n., kaattari,g.e. and anastasio,r.f.
+naca til.3959.

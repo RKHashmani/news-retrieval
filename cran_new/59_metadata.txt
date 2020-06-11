@@ -1,0 +1,4 @@
+tables of exact laminar-boundary layer solutions when
+the wall is porous and fluid properties are variable .
+brown,w.d. and donoughe,p.l.
+naca tn.2479, 1951.

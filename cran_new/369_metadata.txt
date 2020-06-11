@@ -1,0 +1,4 @@
+an approximate solution of the supersonic blunt body
+problem for prescribed arbitrary axisymmetric shapes .
+traugott,s.
+j. ae. scs. 27, 1960, 361.

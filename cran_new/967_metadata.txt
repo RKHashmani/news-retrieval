@@ -1,0 +1,4 @@
+a study of laminar compressible viscous pipe flow accelerated by an
+axial body force, with application to magnetogasdynamics .
+martin, d.e.
+nasa tn d-855, april 1961 .

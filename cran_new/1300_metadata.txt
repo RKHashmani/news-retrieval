@@ -1,0 +1,4 @@
+some effects of bluntness on boundary layer transition
+and heat transfer at supersonic speeds .
+moeckel,w.e.
+naca r.1312, 1957.

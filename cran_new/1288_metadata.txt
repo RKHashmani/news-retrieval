@@ -1,0 +1,4 @@
+analysis of the fluid mechanics of secondary injection
+for thrust vector control .
+broadwell,j.e.
+aiaa jnl. 1963, 1067.

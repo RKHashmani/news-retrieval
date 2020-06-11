@@ -1,0 +1,4 @@
+a linearized analysis of the forces exerted on a rigid
+wing by a shock wave .
+ehlers,f.e. and shoemaker,e.m.
+j. ae. scs. 1959, 75.

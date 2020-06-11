@@ -1,0 +1,4 @@
+a simple method for calculating the span and chordwise loading on
+straight and swept wings of any aspect ratio at subsonic speeds .
+kuchemann, d.
+r + m 2935, r.a.e. rep. aero. 2476, a.r.c. 15,633. august 1962 .

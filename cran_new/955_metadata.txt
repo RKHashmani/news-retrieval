@@ -1,0 +1,4 @@
+the membrane approach to bending instability of pressureized
+cylindrical shells .
+mccomb,h.g., zender,g.w. and mikulas,m.m.
+nasa tn.d1510, 1962, 229.

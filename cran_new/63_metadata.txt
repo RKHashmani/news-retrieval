@@ -1,0 +1,3 @@
+hypersonic viscous flow over slender cones .
+talbot,l.
+naca tn.4327, 1958.

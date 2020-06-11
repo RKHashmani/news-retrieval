@@ -1,0 +1,4 @@
+compressive and torsional buckling of thin-wall cylinders
+in the yield region .
+gerard,g.
+naca tn.3726, 1956.

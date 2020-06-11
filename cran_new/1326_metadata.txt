@@ -1,0 +1,4 @@
+interaction of secondary injectants and rocket exhaust
+for thrust vector control .
+newton,j.f. and spaid,f.w.
+ars jnl. 32, 1962, 1203.

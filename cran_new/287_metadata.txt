@@ -1,0 +1,4 @@
+some theoretical low-speed loading characteristics
+of swept wings in roll and sideslip .
+bird,j.d.
+naca r969, 1950.

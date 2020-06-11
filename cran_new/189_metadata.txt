@@ -1,0 +1,4 @@
+experimental investigation of base pressure on blunt-trailing-edge
+wings of supersonic velocities .
+chapman,d.r., wimbrow,w.r. and kester,r.h.
+naca r1109.

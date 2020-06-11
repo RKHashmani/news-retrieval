@@ -1,0 +1,5 @@
+analytical and experimental investigation of stress distributions in
+long flat plates subjected to lingitudinal loads and transverse
+temperature gradients .
+sprague, g.h. and huang, p.c.
+wadc tr 55-350, 1955 .

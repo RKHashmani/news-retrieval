@@ -1,0 +1,5 @@
+free-flight measurements of the dynamic longitudinal
+stability characteristics of a wind tunnel interference
+model (m=0 .92 to 1. 35) .
+greenwood,g.h.
+rae tn.aero.2798, 1961.

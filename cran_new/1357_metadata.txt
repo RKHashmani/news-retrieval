@@ -1,0 +1,4 @@
+compressive buckling of simply supplorted plates with
+longitudinal stiffeners .
+seide,p. and stein,m.
+naca tn.1825, 1949.

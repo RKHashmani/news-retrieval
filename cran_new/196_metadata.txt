@@ -1,0 +1,4 @@
+pressure distributions . axially symmetric bodies in
+oblique flow .
+campbell,i.j. and lewis,r.g.
+arc cp213, 1955.

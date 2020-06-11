@@ -1,0 +1,4 @@
+non-equilibrium expansions of air with coupled chemical
+reactions .
+eschenroeder,a.q., boyer,d. and hall,j.g.
+phys. fluids, 1962.

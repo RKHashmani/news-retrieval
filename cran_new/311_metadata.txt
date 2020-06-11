@@ -1,0 +1,4 @@
+a method for predicting the onset of buffeting and other separation
+effects from wind tunnel tests on rigid models .
+pearcey, h. h.
+n.p.l. aero. 358, fm 2763. dec. 1958 .

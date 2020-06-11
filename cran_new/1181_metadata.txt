@@ -1,0 +1,4 @@
+steady magnetohydrodynamic flow past a non-conducting
+wedge .
+chu,c.k. and lynn,y.m.
+aiaa jnl.

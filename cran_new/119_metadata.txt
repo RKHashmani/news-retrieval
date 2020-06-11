@@ -1,0 +1,4 @@
+conduction of fluctuating heat flow in a wall consisting
+of many layers .
+vodicka,v.
+app.sc.res. 5, 1955, 108.

@@ -1,0 +1,5 @@
+laminar heat-transfer and pressure measurements at
+a mach number of 6 on sharp and blunt 15 half-angle
+cones at angles of attack up to 90 .
+conti,r.j.
+nasa tn.d962, 1961.

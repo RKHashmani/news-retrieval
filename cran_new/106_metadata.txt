@@ -1,0 +1,3 @@
+the transverse potential flow past a body of revolution .
+campbell,i.j.
+q.j.mech.app.math. 9, 1956, 140.

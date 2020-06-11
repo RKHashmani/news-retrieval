@@ -1,0 +1,3 @@
+one dimensional flows of an imperfect diatomic gas .
+eggers,a.j.
+naca r.959, 1950.

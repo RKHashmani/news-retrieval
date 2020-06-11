@@ -1,0 +1,3 @@
+methods for calculating the lift distribution of wings /subsonic
+lifting surface theory/ .
+r + m 2884, r.a.e. rep. aero. 2353. a.r.c. 13,439. january 1950 .

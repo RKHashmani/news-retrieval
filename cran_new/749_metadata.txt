@@ -1,0 +1,4 @@
+the aerodynamic effects of aspect ratio and sweepback
+on wing flutter .
+molyneux,w.g. and hall,h.
+arc r + m.3011.

@@ -1,0 +1,4 @@
+some aspects of air-helium simulation and hypersonic
+approximations .
+love,e.s.
+nasa tn.d49, 1959.

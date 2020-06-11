@@ -1,0 +1,4 @@
+an approximate solution for the axisymmetric jet of a laminar
+compressible fluid .
+gdalia kleinstein
+polytechnic institute of brooklyn

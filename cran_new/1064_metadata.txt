@@ -1,0 +1,5 @@
+propeller slipstream effects as determined from wing
+pressure distribution on a large-scale six-propeller
+vtol model at static thrust .
+winston,m.m.
+nasa tn.d1509, 1962.

@@ -1,0 +1,3 @@
+cantilever plate with concentrated edge load .
+holl,d.l.
+j.app.mech. 1937, 8.

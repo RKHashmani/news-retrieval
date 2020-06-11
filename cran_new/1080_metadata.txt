@@ -1,0 +1,3 @@
+viscous flow round a sphere at low reynolds numbers . /l40/ .
+jenson, v.g.
+proc. roy. soc. series, a. v. 249, p. 346, 1959 .

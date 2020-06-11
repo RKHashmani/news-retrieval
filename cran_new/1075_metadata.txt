@@ -1,0 +1,4 @@
+an experimental and theoretical investigation of second-order supersonic
+ wing-body interference, for a non-lifting body with wings at incidence .
+wilby, p.g.
+aero. res. inst. of sweden, ffa report 87, 1960 .

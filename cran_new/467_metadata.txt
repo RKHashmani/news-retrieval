@@ -1,0 +1,4 @@
+thin airfoil theory based on approximate solution of the transonic flow
+equation .
+spreiter, j. r. and alksne, a. y.
+naca tn 3970, may, 1957 .

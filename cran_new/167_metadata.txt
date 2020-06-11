@@ -1,0 +1,3 @@
+linearized flow of a dissociating gas .
+clarke,j.f.
+j.fluid mech. 7, 1960, 577.

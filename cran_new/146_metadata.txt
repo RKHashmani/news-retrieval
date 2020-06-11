@@ -1,0 +1,4 @@
+supersonic flow past slender bodies with discontinuous
+profile slope .
+fraenkel and portnoy.
+aero.quart. 6, 1955, 114.

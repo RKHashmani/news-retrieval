@@ -1,0 +1,5 @@
+some experiments relating to the problem of simulation of hot jet
+engines in studies of jet effects on adjacent surfaces at a free-stream
+mach number of 1.80 .
+bressette, w.e.
+naca rm l56e07. 1956 .

@@ -1,0 +1,4 @@
+measurements of skin friction of the compressible turbulent
+boundary layer on a cone with foreign gas injection .
+pappas,c.c. and okuno,a.f.
+j.aero.scs. 27, 1960, 321.

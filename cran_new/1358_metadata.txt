@@ -1,0 +1,4 @@
+compressive buckling of simply supported plates with
+transverse stiffeners .
+budiansky,b. and seide,p.
+naca tn.1557, 1948.

@@ -1,0 +1,4 @@
+supersonic flow past oscillating airfoils including
+nonlinear thickness effects .
+van dyke,m.d.
+naca r1183, 1954.

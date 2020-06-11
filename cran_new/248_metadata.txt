@@ -1,0 +1,5 @@
+the application of lighthill formula for numerical
+calculation of pressure distributions on bodies of
+revolution at supersonic speed and zero angle of attack .
+ohman,l.
+saab tn.45, 1960.

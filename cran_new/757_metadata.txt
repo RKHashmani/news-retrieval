@@ -1,0 +1,5 @@
+an investigation of the flow about a plane half-wing
+of cropped delta planform and 6( symmetrical section
+at stream mach numbers between 0. 8 and 1. 41 .
+rogers,e.w.e., hall,i.m. and berry,c.j.
+arc r + m.3286, 1960.

@@ -1,0 +1,4 @@
+the behaviour of a cylindrical shell under axial compression
+when the buckling load has been exceeded .
+leggett,d.m.a. and jones,r.p.n.
+arc r + m.2190, 1942.

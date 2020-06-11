@@ -1,0 +1,4 @@
+an extension of the method of generalised conical flows
+for lifting wings in supersonic flow .
+portnoy,h.
+rae tn. aero.2849, 1962.

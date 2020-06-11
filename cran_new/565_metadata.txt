@@ -1,0 +1,4 @@
+similar solutions for the compressible boundary layer
+on a yawed cylinder with transpiration cooling .
+beckwith,i.e.
+naca tn.4345, 1958.

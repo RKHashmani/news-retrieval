@@ -1,0 +1,3 @@
+a factor affecting transonic leading edge flow separation .
+wood,g.p. and gooderum,p.b.
+naca tn.3804, 1956.

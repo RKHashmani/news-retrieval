@@ -1,0 +1,4 @@
+lower buckling load in the non-linear buckling theory
+of thin shells .
+tsien,h.s.
+q. app. math. 5, 1947, 236.

@@ -1,0 +1,4 @@
+theory of aircraft structural models subjected to aerodynamic
+heating and external loads .
+o'sullivan,w.j.
+naca tn.4115, 1957.

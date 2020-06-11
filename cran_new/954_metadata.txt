@@ -1,0 +1,4 @@
+analysis of stress at several junctions in pressurized
+shells .
+johns,r.h., morgan,w.c. and spera,d.a.
+aiaa jnl. 1, 1963, 455.

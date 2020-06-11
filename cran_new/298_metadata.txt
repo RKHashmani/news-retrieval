@@ -1,0 +1,4 @@
+incompressible wedge flows of an electrically conducting
+viscous fluid in the presence of a magnetic field .
+yen,k.t.
+j. ae. scs. 27, 1960.

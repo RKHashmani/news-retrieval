@@ -1,0 +1,4 @@
+investigation of two bluff shapes in axial free flight
+over a mach number range from 0. 35 to 2. 15 .
+coltrane,l.c.
+naca rm l58a16, 1958.

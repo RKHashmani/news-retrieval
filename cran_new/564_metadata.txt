@@ -1,0 +1,5 @@
+local heat transfer and recovery temperature on a yawed
+cylinder at a mach number of 4. 15 and high reynolds
+numbers .
+beckwith,i.e. and gallagher,j.j.
+nasa memo 2-27-59l, 1959.

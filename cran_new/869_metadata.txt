@@ -1,0 +1,4 @@
+the calculation of transient temperature in turbine
+blades and tapered discs using biot's variational method .
+howe,p.w.h.
+arc cp.617, 1961.

@@ -1,0 +1,4 @@
+heat transfer to flat plate in high temperature rarefied
+ultra-high mach number flow .
+nagamatsu,h.t., weil,h.a. and sheet,r.e.
+ars j. 32, 1962, 533.

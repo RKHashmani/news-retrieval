@@ -1,0 +1,3 @@
+steady-state creep through dislocation climb .
+weertman,j.
+j.app. phys. 28, 1957, 362.

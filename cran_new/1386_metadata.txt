@@ -1,0 +1,5 @@
+analysis and calculation by integral methods of laminar
+compressible boundary layer with heat transfer and
+with and without pressure gradient .
+morduchow,m.
+naca r.1245, 1955.

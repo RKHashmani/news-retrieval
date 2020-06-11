@@ -1,0 +1,5 @@
+a general purpose analogue correlator for the analysis of
+random noise signals .
+g. a. allcock, a.m.i.e.e., a.m.brit.i.r.e.
+p. l. tanner, m.sc. (eng), grad. i.e.e.
+k. r. mclachlan, a.m.brit. i.r.e.

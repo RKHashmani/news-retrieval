@@ -1,0 +1,4 @@
+two dimensional transonic unsteady flow with shock
+waves .
+eckhaus,w.
+m.i.t. fluid dynamics res. group r.59-3, 1959.

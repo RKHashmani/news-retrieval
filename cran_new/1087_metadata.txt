@@ -1,0 +1,4 @@
+convergence rates of iterative treatments of partial differential
+equations .
+frankel, s.p.
+math. tables aids comp. v. 4. p. 65, 1950 .

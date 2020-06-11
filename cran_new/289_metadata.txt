@@ -1,0 +1,4 @@
+a theoretical study of the aerodynamics of slender
+cruciform-wing arrangements and their wakes .
+spreiter,j.r. and sacks,a.h.
+naca r1296, 1957.

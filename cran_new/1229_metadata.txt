@@ -1,0 +1,4 @@
+the effect of sweep angle on hypersonic flow over blunt
+wings .
+bogdonoff,s.m. and vas,r.e.
+j. ae. scs. 1961.

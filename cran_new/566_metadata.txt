@@ -1,0 +1,5 @@
+investigation of local heat transfer and pressure drag
+characteristics of a yawed circular cylinder at supersonic
+speeds .
+goodwin,g., creager,m.o. and winkler,e.l.
+naca rm.a55h31, 1956.

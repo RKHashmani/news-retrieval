@@ -1,0 +1,5 @@
+accuracy of approximate methods for predicting pressure
+on pointed non-lifting bodies of revolution in supersonic
+flow .
+ehret,d.m.
+naca tn.2764.

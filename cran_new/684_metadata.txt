@@ -1,0 +1,3 @@
+tables of complete elliptic integrals .
+heuman,c.
+j. maths. and phys. v. 20, 1941, pp 127-206 .

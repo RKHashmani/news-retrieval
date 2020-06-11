@@ -1,0 +1,4 @@
+combinations of temperature and axial compression required
+for buckling of a ring-stiffened cylinder .
+anderson,m.s.
+nasa tn.d1224, 1962.

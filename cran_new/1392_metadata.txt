@@ -1,0 +1,5 @@
+the solution of small displacement, stability or vibration
+problems concerning a flat rectangular panel when the
+edges are either clamped or simply supported .
+hopkins,h.g.
+arc r + m.2234, 1945.

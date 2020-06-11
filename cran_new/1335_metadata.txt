@@ -1,0 +1,3 @@
+use of freon-12 as a fluid for aerodynamic testing .
+huber,p.w.
+naca tn.1024, 1946.

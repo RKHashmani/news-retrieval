@@ -1,0 +1,3 @@
+accelerating convergence of iteration processes .
+wegstein,j.h.
+comm. of assoc. for computing mach. 1958.

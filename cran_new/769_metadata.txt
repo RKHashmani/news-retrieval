@@ -1,0 +1,4 @@
+local circumferential buckling of thin circular cylindrical
+shells .
+johns,d.j.
+nasa tn.d1510, 1962, 267.

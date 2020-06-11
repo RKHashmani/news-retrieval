@@ -1,0 +1,4 @@
+nonviscous flow through a pump impeller on a blade-to-blade surface of
+revolution .
+kramer, j.j. et al.
+nasa tn d-1108, 1962,

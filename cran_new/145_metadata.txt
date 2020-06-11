@@ -1,0 +1,4 @@
+skin friction in the laminar boundary layer in compressible
+flow .
+young,a.d.
+aero.quart. 1, 1949, 137.

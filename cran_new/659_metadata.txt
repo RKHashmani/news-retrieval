@@ -1,0 +1,3 @@
+nonuniform shear flow past cylinders .
+murray,j.d.
+q. j. mech. app. math. 10, 1957, 406.

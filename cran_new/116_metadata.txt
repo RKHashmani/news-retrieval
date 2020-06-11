@@ -1,0 +1,4 @@
+the elliptic cylinder in a shear flow with hyperbolic
+velocity profile .
+jones,e.e.
+q.j.mech.app.math. 12, 1959, 191.

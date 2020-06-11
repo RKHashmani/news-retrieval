@@ -1,0 +1,5 @@
+extension of boundary layer separation criteria to
+a m=6 .5 utilizing flat plates with forward-facing
+steps .
+sterrett,j.r. and emery,j.c.
+nasa tn.d618, 1960.

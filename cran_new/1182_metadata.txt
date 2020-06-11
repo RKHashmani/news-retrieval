@@ -1,0 +1,3 @@
+an approximate solution for laminar boundary layer flow .
+robert l. kosson
+grumman aircraft engineering corporation, bethpage, n.y.

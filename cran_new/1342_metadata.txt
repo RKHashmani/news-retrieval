@@ -1,0 +1,3 @@
+the calculation of aerodynamic loading on surfaces of any shape .
+falkner, v.m.
+r + m 1910, august 1943 .

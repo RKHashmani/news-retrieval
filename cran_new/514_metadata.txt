@@ -1,0 +1,5 @@
+pressure distributions and flow patterns on some conical
+shapes with sharp edges and symmetrical cross-sections
+at m=4 .0.
+squire,l.c.
+rae tn.aero.2823, 1962.

@@ -1,0 +1,4 @@
+calculation of flutter characteristics for finite-span swept or unswept
+wings at subsonic and supersonic speeds by a modified strip analysis .
+yates, e.c.
+naca rm l57l10, 1958 .

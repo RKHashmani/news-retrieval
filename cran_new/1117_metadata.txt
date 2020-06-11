@@ -1,0 +1,4 @@
+stability of orthotropic cylindrical shells under combined
+loading .
+hess,t.e.
+ars j. 31, 1961.

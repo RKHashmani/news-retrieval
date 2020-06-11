@@ -1,0 +1,4 @@
+boundary layer behind shock or thin expansion wave
+moving into stationary fluid .
+mirels,h.
+naca tn.3712, 1956.

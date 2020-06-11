@@ -1,0 +1,6 @@
+measurements of aerodynamic forces for various mean
+angles of attack on an airfoil oscillating in pitch
+and on two finite-span wings oscillating in bending
+with emphasis on damping in the stall .
+rainey,a.g.
+naca r.1305, 1957.

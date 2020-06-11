@@ -1,0 +1,4 @@
+thermal diffusion effects on energy transfer in a turbulent
+boundary layer with helium injection .
+tewfik,o.e., eckert,e.r.g. and shirtliffe,c.j.
+to be presented at the 1962 heat transfer and fluid mech.inst. seattle,

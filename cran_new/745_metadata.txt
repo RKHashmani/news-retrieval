@@ -1,0 +1,4 @@
+an automatic method for finding the greatest or least
+value function .
+rosenbrock,h.h.
+computer jnl. 1960.

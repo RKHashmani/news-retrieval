@@ -1,0 +1,4 @@
+a note on application of transonic linearization to
+an airfoil with a round leading edge .
+hosokawa,i.
+j. ae. scs. 29, 1962, 1395.

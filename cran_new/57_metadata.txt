@@ -1,0 +1,6 @@
+applicability of the hypersonic similarity rule to
+pressure distributions which include the effects of
+rotation for bodies of revolution at zero angle of
+attack .
+rossow,v.j.
+naca tn.2399, 1951.

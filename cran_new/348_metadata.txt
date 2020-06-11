@@ -1,0 +1,3 @@
+turbulent boundary layer in compressible fluids .
+van driest,e.r.
+j.ae.scs. 18, 1951, 145.

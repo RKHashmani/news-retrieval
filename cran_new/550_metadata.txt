@@ -1,0 +1,3 @@
+laminar heat transfer in tubes under slip-flow conditions .
+sparrow,e.m. and lin,s.h.
+asme paper 61-wa-165.

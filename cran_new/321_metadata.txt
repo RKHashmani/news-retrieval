@@ -1,0 +1,4 @@
+improved numerical solution of the blasius problem with three-point
+boundary conditions .
+christian, w. j.
+j. aero. sc. v. 28, november, 1961 .

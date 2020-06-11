@@ -1,0 +1,4 @@
+upper and lower bounds for the solution of the first
+biharmonic boundary value problem .
+diaz,g.b., and greenberg,h.g.
+j. math. phys. 27, 1948, 193.

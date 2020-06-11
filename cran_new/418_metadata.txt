@@ -1,0 +1,3 @@
+transition form laminar to turbulent shear flow .
+morkovin,m.v.
+asme trans, 80, 1958,1121.

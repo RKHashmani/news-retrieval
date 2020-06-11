@@ -1,0 +1,4 @@
+a note on the use of end plates to prevent three dimensional
+flow at the ends of bluff cylinders .
+cowdrey,c.f.
+npl aero. r.1025, 1962.

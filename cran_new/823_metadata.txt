@@ -1,0 +1,4 @@
+plastic torsional buckling strength of cylinders including
+the effects of imperfections .
+lee,l.h.n. and ades,c.s.
+j. ae. scs. 24, 1957, 241.

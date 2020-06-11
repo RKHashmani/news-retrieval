@@ -1,0 +1,4 @@
+a method for analysing the insulating properties of
+the laminar compressible boundary layer .
+libby,pa. and pallone,a.
+j. ae. scs. 21, 1954.

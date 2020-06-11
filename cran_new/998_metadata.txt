@@ -1,0 +1,3 @@
+equations, tables and charts for compressible flow .
+ames research staff.
+naca r.1135, 1953.

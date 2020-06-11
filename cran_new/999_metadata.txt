@@ -1,0 +1,5 @@
+static aerodynamic characteristics of short blunt cones
+with various nose and base cone angles at mach numbers
+of 0. 6 to 5. 5 and angles of attack to 180 .
+treon,s.l.
+nasa tn.d1327, 1962.

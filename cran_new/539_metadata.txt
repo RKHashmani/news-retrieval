@@ -1,0 +1,4 @@
+local heat transfer to a yawed, infite, circular cylinder
+in laminar compressible flow .
+weiss,d.
+j. ae. scs. 29, 1962.

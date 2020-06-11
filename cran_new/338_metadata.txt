@@ -1,0 +1,3 @@
+mass transfer cooling at mach number 4. 8.
+leadon,b.m., scott,c.j. and anderson,g.e.
+j. ae. scs. 25, 1958.

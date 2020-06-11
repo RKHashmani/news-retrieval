@@ -1,0 +1,4 @@
+evaluation of high angle-of-attack aerodynamic derivative
+data and stall-flutter prediction techniques .
+halfman,r.l., johnson,h.c. and haley,s.m.
+naca tn.2533, 1951.

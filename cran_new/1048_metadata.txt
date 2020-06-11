@@ -1,0 +1,3 @@
+a small deflection theory for curved sandwich plates .
+stein,m. and mayers,j.
+naca r.1008, 1951.

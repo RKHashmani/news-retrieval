@@ -1,0 +1,4 @@
+nearly circular transfer trajectories for descending
+satellites .
+low,g.m.
+nasa r-3, 1959.

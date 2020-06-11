@@ -1,0 +1,3 @@
+wake of a satellite traversing the ionosphere .
+rand,s.
+phys. fluids, 3, 1960.

@@ -1,0 +1,3 @@
+magnetohydrodynamic flow past a thin airfoil .
+cumberbatch,e., sarason,l. and weitzner,h.
+aiaa jnl. 1, 1963, 679.

@@ -1,0 +1,4 @@
+aerodynamic characteristics of propeller-driven vtol
+aircraft .
+kirby,r.h.
+nasa tn.d730, 1961.

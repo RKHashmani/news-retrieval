@@ -1,0 +1,3 @@
+liapunov's methods in automatic control theory .
+parks, p. c.
+control, november and december 1962 .

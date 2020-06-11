@@ -1,0 +1,4 @@
+critical shear stress of an infinitely long simply
+supported plate with transverse stiffeners .
+stein,m. and fralich,r.w.
+naca tn.1851, 1949.

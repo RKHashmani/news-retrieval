@@ -1,0 +1,4 @@
+atmosphere entries with spacecraft lift-drag ratios
+modulated to limit decelerations .
+levy,l.l.
+nasa tn.d1427, 1962.

@@ -1,0 +1,4 @@
+approximate indical lift functions for several wings of finite span in
+incompressible flow as obtained from oscillatory lift coefficients .
+drischler j.a.
+naca tn 3639, 1956 .

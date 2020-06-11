@@ -1,0 +1,6 @@
+experimental investigation at mach numbers 3. 0 of
+the effects of thermal stress and buckling on the flutter
+of four-bay aluminium alloy panels with length-width
+ratios of 10 .
+dixon,s.c., griffith,g.e. and bohon,h.k.
+nasa tn.d921, 1961.

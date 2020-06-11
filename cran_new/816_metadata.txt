@@ -1,0 +1,5 @@
+experimental investigation at a mach number of 3. 11
+of the lift, drag and pitching moment characteristics
+of a number of blunt low-fineness-ratio bodies .
+letko,w.
+nasa memo 1-18-159l, 1959.

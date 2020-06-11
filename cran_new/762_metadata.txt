@@ -1,0 +1,4 @@
+allowable axial loads and bending moments for inelastic structures
+under nonuniform temperature distribution .
+b. e. gatewood and r. w. gehring
+the ohio state university and north american aviation, inc.

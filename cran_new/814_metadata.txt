@@ -1,0 +1,3 @@
+stability derivatives of cones at supersonic speeds .
+tobak,m. and wehrend,w.r.
+naca tn.3788, 1956.

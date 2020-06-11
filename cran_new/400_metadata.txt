@@ -1,0 +1,3 @@
+buckling stress of clamped rectangular plates in shear .
+budiansky,b. and connor,r.w.
+naca tn.1559, 1948.

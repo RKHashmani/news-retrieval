@@ -1,0 +1,4 @@
+the transverse curvature effect in compressible axially
+symmetric laminar boundary layer flow .
+probstein,r.f. and elliott,d.
+j. ae.scs. 28, 1956, 206.

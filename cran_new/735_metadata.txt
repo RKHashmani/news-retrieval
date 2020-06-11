@@ -1,0 +1,4 @@
+the bending of uniformly loaded sectorial plates with
+clamped edges .
+conway,h.d. and huang,m.k.
+j. app. mech. 19, 1962, 5.

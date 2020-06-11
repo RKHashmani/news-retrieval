@@ -1,0 +1,3 @@
+hypersonic viscous shock layer .
+scala,s.m.
+ars jnl. 1959, 29, 520.

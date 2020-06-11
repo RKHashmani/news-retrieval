@@ -1,0 +1,4 @@
+development of a quasi-steady approach to flutter and
+correlation with kernel-function results .
+gravitz,s.i., laidlaw,w.r., bryce,w.w. and cooper,r.e.
+j.ae.scs. 29, 1962, 445.

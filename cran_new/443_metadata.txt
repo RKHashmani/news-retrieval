@@ -1,0 +1,4 @@
+calculated and measured pressure distributions over the midspan section
+of the naca 4412 airfoil .
+pinkerton, r. m.
+naca r. 563, 1936 .

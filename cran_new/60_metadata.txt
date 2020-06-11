@@ -1,0 +1,4 @@
+estimation forces and moments due to rolling for several
+slender tail configurations at supersonic speeds .
+bobbitt,p.j. and malvestuto,f.s.
+naca tn.2955, 1953.

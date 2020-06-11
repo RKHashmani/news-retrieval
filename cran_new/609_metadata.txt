@@ -1,0 +1,4 @@
+on three dimensional bodies of delta planform which
+can support plane attached shock waves .
+peckman,d.h.
+rae tn. aero.2812.

@@ -1,0 +1,4 @@
+general theory of airfoil sections having arbitrary
+shape or pressure distribution .
+allen,h.j.
+naca r833, 1945.

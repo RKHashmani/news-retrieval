@@ -1,0 +1,5 @@
+experimental investigation of the effect of yaw on
+rates of heat transfer to transverse circular
+cylinders in a 6500-foot-per-second
+hypersonic air stream .
+bernard e. cunningham and samuel kraus

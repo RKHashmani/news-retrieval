@@ -1,0 +1,4 @@
+a graphical approximation for temperatures and sublimation rates at
+surfaces subjected to small net and large gross heat transfer rates .
+adams, e. w.
+j. aero. sc. v. 29, march 1962, pp. 360-1 .

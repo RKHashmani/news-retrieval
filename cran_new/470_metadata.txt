@@ -1,0 +1,5 @@
+some notes for the small disturbance linear theory
+of the method of local linearisation of the flow over
+an airfoil at mach number of unity .
+miyai,y.
+proc. 10th japan nat. cong. app. mech. iii-4, 1960, 207.

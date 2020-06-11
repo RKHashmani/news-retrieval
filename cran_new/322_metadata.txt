@@ -1,0 +1,4 @@
+on the numerical solution of the blasius problem with three-point
+boundary conditions .
+toba, k.
+j. aero. sc. v. 29, p480-1, april, 1962 .

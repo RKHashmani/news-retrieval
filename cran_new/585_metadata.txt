@@ -1,0 +1,3 @@
+nonlinear heat transfer problem .
+chambre,p.l.
+j. app. phys. 30, 1959, 1683.

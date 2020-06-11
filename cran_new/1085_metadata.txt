@@ -1,0 +1,4 @@
+note on the convergence of numerical solutions of the navier-stokes
+equations .
+thom, a. and apelt, c.j.
+a.r.c. r + m 3061. 1956 .

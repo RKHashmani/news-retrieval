@@ -1,0 +1,4 @@
+inelastic behaviour of structures subjected to cyclic
+thermal and mechanical stressing conditions .
+padlog,j., huff,r.d. and holloway,g.f.
+wadc tr 60-271, 1960.

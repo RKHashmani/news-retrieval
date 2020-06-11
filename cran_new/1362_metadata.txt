@@ -1,0 +1,4 @@
+non-linear analysis of heated, cambered wings by the matrix force
+method .
+warner lansing, irving w. jones, paul ratner
+grumman aircraft engineering corporation

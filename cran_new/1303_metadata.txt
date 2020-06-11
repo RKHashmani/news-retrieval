@@ -1,0 +1,3 @@
+air pressure on a cone moving at high speeds .
+taylor,g.i. and maccoll,j.w.
+proc. roy. soc. a, 139, 1933, 278.

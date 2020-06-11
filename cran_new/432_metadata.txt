@@ -1,0 +1,5 @@
+theoretical damping in roll and rolling moment due
+to differential wing incidence for slender cruciform
+wings and wing-body combinations .
+adams,g.j. and dugan,d.w.
+naca r1088, 1952.

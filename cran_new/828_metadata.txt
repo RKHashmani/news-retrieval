@@ -1,0 +1,4 @@
+stresses and small displacements of shallow spherical
+shells .
+reissner,e.
+j. math. phys. 25, 1946, 80.
