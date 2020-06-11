@@ -22,7 +22,7 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("Green Nokia"); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("\"Green phones\" AND \"few Nokia\" ~3"); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
