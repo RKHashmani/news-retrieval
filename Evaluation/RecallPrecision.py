@@ -89,8 +89,7 @@ def PlotPrecRecall (retrieved, relevant):
 	precision = PrecTable(retrieved, relevant)
 
 	recall, precision = extendWith0 (recall, precision)
-	print (precision)
-
+	
 	plt.plot (recall, precision)
 	plt.xlabel ('Recall')
 	plt.ylabel ('Precision')
@@ -99,15 +98,49 @@ def PlotPrecRecall (retrieved, relevant):
 	plt.savefig('test.png')
 	plt.show()
 
+def InterpolatedValues (retrieved, relevant):
+	interpolRecall = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+	interpolPrec = []
+
+	recall = RecallTable(retrieved, relevant)
+	precision = PrecTable (retrieved, relevant)
+	recall, precision = extendWith0 (recall, precision)
+
+	for i in range(len(interpolRecall)):
+		largestTotal = 0
+		for j in range(len(recall)):
+			if recall[j] >= interpolRecall[i]:
+				slicedPrec = precision[j:len(precision)]
+				largest = max(slicedPrec);
+				if largest > largestTotal:
+					largestTotal = largest
+
+		interpolPrec.append(largestTotal)
+
+	return interpolPrec
+
+def PlotInterpol (retrieved, relevant):
+	interpolRecall = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+	interpolPrecision = InterpolatedValues (retrieved, relevant)
+	print (interpolPrecision)
+
+	plt.plot (interpolRecall, interpolPrecision, marker = 'o')
+	plt.xlabel ('Recall')
+	plt.ylabel ('Precision')
+	plt.grid()
+	plt.legend()
+	plt.savefig('Interpolated.png')
+	plt.show()
 
 
+#print(f"Recall: {basicRecall(retrieved, relevant)}")
+#print(f"Precision: {basicPrecision(retrieved, relevant)}")
+#print(f"F1: {F1(retrieved, relevant)}")
 
-print(f"Recall: {basicRecall(retrieved, relevant)}")
-print(f"Precision: {basicPrecision(retrieved, relevant)}")
-print(f"F1: {F1(retrieved, relevant)}")
-
-print(f"Recall Table: {RecallTable(retrieved, relevant)}")
-print(f"Precision Table: {PrecTable(retrieved, relevant)}")
+#print(f"Recall Table: {RecallTable(retrieved, relevant)}")
+#print(f"Precision Table: {PrecTable(retrieved, relevant)}")
 #print(len(PrecTable(retrieved,relevant)))
 
-PlotPrecRecall(retrieved, relevant)
+#PlotPrecRecall(retrieved, relevant)
+#InterpolatedValues(retrieved,relevant)
+PlotInterpol(retrieved, relevant)
