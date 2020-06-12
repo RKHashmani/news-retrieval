@@ -72,10 +72,7 @@ def PrecTable (retrieved, relevant):
 			precK.append(matched / (i+1))
 	return precK
 
-def PlotPrecRecall (retrieved, relevant):
-	recall = RecallTable(retrieved, relevant)
-	precision = PrecTable(retrieved, relevant)
-
+def extendWith0 (recall, precision):
 	if recall[-1] < 1:
 		a = ceil(recall[-1]*10)/10
 		recall.append(a)
@@ -83,11 +80,16 @@ def PlotPrecRecall (retrieved, relevant):
 			b = recall[-1] + 0.1
 			b = round(b,1)
 			recall.append(b)
-
 	#print (recall)
 
-	precision = precision + [0]*(len(recall) - len(precision))
+	return recall, precision + [0]*(len(recall) - len(precision))
 
+def PlotPrecRecall (retrieved, relevant):
+	recall = RecallTable(retrieved, relevant)
+	precision = PrecTable(retrieved, relevant)
+
+	recall, precision = extendWith0 (recall, precision)
+	print (precision)
 
 	plt.plot (recall, precision)
 	plt.xlabel ('Recall')
