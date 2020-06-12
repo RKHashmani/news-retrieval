@@ -234,13 +234,14 @@ def MAPTerm (retrieve1, query1):
 	term1 = numer1 / incr1
 	return term1
 
-def MAP (retrieve1, query1, retrieve2, query2):
-	totalQueries = 2
+def MAP (retrieve1, query1, retrieve2, query2, retrieve3, query3):
+	totalQueries = 3
 
 	term1 = MAPTerm (retrieve1, query1)
 	term2 = MAPTerm (retrieve2, query2)
+	term3 = MAPTerm (retrieve3, query3)
 
-	mapValue = (term1 + term2) / totalQueries
+	mapValue = (term1 + term2 + term3) / totalQueries
 	print (f"MAP: {mapValue}")
 
 
@@ -264,9 +265,7 @@ def MAP (retrieve1, query1, retrieve2, query2):
 #print(f"NDCG: {NDCG(retrieved, relevant)}")
 
 #print (RecallTable(retrieved, relevant))
-MAP(retrieved, relevant, retrieved2, relevant2)
 
-'''
 ## OUTPUT
 
 #For Query1
@@ -287,6 +286,7 @@ print(f"Precision: {basicPrecision(retrieved2, relevant2)}")
 print(f"F1: {F1(retrieved2, relevant2)}")
 print('\n')
 
-
-interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
-'''
+#For All Queries:
+MAP(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
+#interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
+print (interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6))
