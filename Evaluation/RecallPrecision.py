@@ -131,7 +131,7 @@ def InterpolatedValues (retrieved, relevant):
 		for j in range(len(recall)):
 			if recall[j] >= interpolRecall[i]:
 				slicedPrec = precision[j:len(precision)]
-				largest = max(slicedPrec);
+				largest = max(slicedPrec)
 				if largest > largestTotal:
 					largestTotal = largest
 
@@ -187,7 +187,7 @@ def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add
 
 	interpolRecall = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
-	TotalQueries = 3 #Set the number of total queries present in the argument.
+	totalQueries = 3 #Set the number of total queries present in the argument.
 
 	# Add another line for each query
 	interpol_1 = InterpolatedValues(retrieve1, query1)
@@ -195,7 +195,7 @@ def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add
 	interpol_3 = InterpolatedValues(retrieve3, query3)
 
 	numerator = [interpol_1[i] + interpol_2[i] + interpol_3[i] for i in range(len(interpol_1))] #Add a new interpol_X[i]
-	averaged = [numerator[i] / TotalQueries for i in range(len(interpol_1))]
+	averaged = [numerator[i] / totalQueries for i in range(len(interpol_1))]
 	
 	plt.plot (interpolRecall, averaged, marker = 'o')
 	plt.xlabel ('Recall')
@@ -208,6 +208,40 @@ def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add
 
 	return averaged
 
+def MAPTerm (retrieve1, query1):
+	recTable1 = RecallTable(retrieve1, query1)
+	precTable1 = PrecTable(retrieve1, query1)
+
+	numer1 = 0
+	incr1 = 0
+
+	if recTable1[0] != 0:
+		incr1 += 1
+		numer1 += precTable1[0]
+		for i in range(len(recTable1) -2):
+			i+= 2
+			if recTable1[i] > recTable1[i-1]:
+				incr1 += 1
+				numer1 += precTable1[i]
+
+	else:
+		for i in range(len(recTable1) -1):
+			i+= 1
+			if recTable1[i] > recTable1[i-1]:
+				incr1 += 1
+				numer1 += precTable1[i]
+
+	term1 = numer1 / incr1
+	return term1
+
+def MAP (retrieve1, query1, retrieve2, query2):
+	totalQueries = 2
+
+	term1 = MAPTerm (retrieve1, query1)
+	term2 = MAPTerm (retrieve2, query2)
+
+	mapValue = (term1 + term2) / totalQueries
+	print (f"MAP: {mapValue}")
 
 
 
@@ -229,6 +263,10 @@ def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add
 #print(f"IDCG: {IDCG(retrieved, relevant)}")
 #print(f"NDCG: {NDCG(retrieved, relevant)}")
 
+#print (RecallTable(retrieved, relevant))
+MAP(retrieved, relevant, retrieved2, relevant2)
+
+'''
 ## OUTPUT
 
 #For Query1
@@ -251,3 +289,4 @@ print('\n')
 
 
 interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
+'''
