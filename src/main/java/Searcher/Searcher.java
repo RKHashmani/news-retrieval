@@ -1,9 +1,11 @@
 package Searcher;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 
 import Constants.LuceneConstants;
+import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.CorruptIndexException;
@@ -26,6 +28,8 @@ public class Searcher {
     QueryParser queryParser;
     Query query;
     StandardAnalyzer standardAnalyzer = new StandardAnalyzer(); //Using the standard Analyzer for now
+    StandardAnalyzer NoStopWord = new StandardAnalyzer(new FileReader(LuceneConstants.stopWordsDir));
+    WhitespaceAnalyzer WhiteSpace = new WhitespaceAnalyzer();
     Similarity similarity;
 
     public Searcher(String indexDirectoryPath) throws IOException {
@@ -34,7 +38,9 @@ public class Searcher {
         indexSearcher = new IndexSearcher(reader);
         similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Indexer.java
         indexSearcher.setSimilarity(similarity);
-        queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer); //Choose FIELD here
+        //queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
+        //queryParser = new QueryParser(LuceneConstants.CONTENTS, NoStopWord);//Choose FIELD here
+        queryParser = new QueryParser(LuceneConstants.CONTENTS, WhiteSpace);
         // Change above's standard Analyzer to match whatever analyzer we use for the index
     }
 

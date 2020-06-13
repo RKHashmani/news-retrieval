@@ -22,15 +22,17 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("what are the structural and aeroelastic problems associated with flight\n" +
-                    "of high speed aircraft"); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("how can the effect of the boundary-layer on wing pressure be calculated,\n" +
+                    "and what is its magnitude"); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(LuceneConstants.TestIndexDir);   //Choosing which Index
+        //searcher = new Searcher(LuceneConstants.TestIndexDir);   //Choosing which Index
+        //searcher = new Searcher(LuceneConstants.TestStopWordsIndexDir);
+        searcher = new Searcher(LuceneConstants.TestWhiteSpaceIndexDir);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
 
@@ -55,7 +57,7 @@ public class SearcherMain {
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
-                                + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + doc.get("id") + ")"
+                                + " (Doc: " + doc.get("id") + ") "
                                 + doc.get(LuceneConstants.CONTENTS)
                         //+ " Date: " + doc.get(LuceneConstants.DATE)
 

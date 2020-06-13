@@ -7,6 +7,8 @@ import org.apache.lucene.document.IntPoint;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
+import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -16,9 +18,13 @@ import java.util.Scanner;
 public class TestIndexer {
 
     private IndexWriter writer;
+    Similarity similarity;
 
     public TestIndexer(String indexDirectoryPath, IndexWriterConfig config) throws IOException {
         Directory indexDirectory = FSDirectory.open(new File(indexDirectoryPath).toPath());
+        similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Searcher.java
+        config.setSimilarity(similarity);
+        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         writer = new IndexWriter(indexDirectory, config);
     }
 
