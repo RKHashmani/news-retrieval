@@ -34,7 +34,7 @@ public class Searcher {
         indexSearcher = new IndexSearcher(reader);
         similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Indexer.java
         indexSearcher.setSimilarity(similarity);
-        queryParser = new QueryParser(LuceneConstants.HEADER, standardAnalyzer); //Choose FIELD here
+        queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer); //Choose FIELD here
         // Change above's standard Analyzer to match whatever analyzer we use for the index
     }
 

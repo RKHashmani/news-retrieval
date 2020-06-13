@@ -22,14 +22,15 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("\"Green phones\" AND \"few Nokia\" ~3"); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("what are the structural and aeroelastic problems associated with flight\n" +
+                    "of high speed aircraft"); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(LuceneConstants.StandardIndexDir);   //Choosing which Index
+        searcher = new Searcher(LuceneConstants.TestIndexDir);   //Choosing which Index
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
 
@@ -42,7 +43,7 @@ public class SearcherMain {
             System.out.println(hits.totalHits.value +
                     " documents found. Time :" + (endTime - startTime));
             int x = 0;
-            for(ScoreDoc scoreDoc : hits.scoreDocs) {
+            /*for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
                         + doc.get(LuceneConstants.HEADER)
@@ -50,7 +51,16 @@ public class SearcherMain {
                         + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + hits.scoreDocs[x].doc + ")"
                         // + "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
                 );
+             */
+            for(ScoreDoc scoreDoc : hits.scoreDocs) {
+                Document doc = searcher.getDocument(scoreDoc);
+                System.out.println("Article " + x + ": "
+                                + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + (hits.scoreDocs[x].doc) + ")"
+                                + doc.get(LuceneConstants.CONTENTS)
+                        //+ " Date: " + doc.get(LuceneConstants.DATE)
 
+                        // + "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
+                );
                 x=x+1;
             }
         }
