@@ -10,3 +10,5 @@ src/main/resources/StopWordsIndex
 src/main/resources/WhiteSpaceIndex
 src/main/resources/SpellChecker
 src/main/resources/TestIndex
+src/main/resources/TestStopWordsIndex
+src/main/resources/TestWhiteSpaceIndex

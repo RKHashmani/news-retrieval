@@ -17,4 +17,6 @@ public class LuceneConstants {
     public static final int suggestionsNumber = 5;
     public static String TestIndexDir = "src/main/resources/TestIndex";
     public static String testDir = "src/main/resources/cran_new";
+    public static String TestStopWordsIndexDir = "src/main/resources/TestStopWordsIndex";
+    public static String TestWhiteSpaceIndexDir = "src/main/resources/TestWhiteSpaceIndex";
 }
