@@ -34,8 +34,8 @@ public class TestIndexer {
             bodyContent += bodyReader.nextLine();
         }
         TextField contentField = new TextField(LuceneConstants.CONTENTS, bodyContent, Field.Store.YES);
-        IntPoint id = new IntPoint("id", i);
-        document.add(id);
+        TextField idField = new TextField("id", i + "", Field.Store.YES);
+        document.add(idField);
         document.add(contentField);
 
         return document;

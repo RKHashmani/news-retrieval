@@ -55,7 +55,7 @@ public class SearcherMain {
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
-                                + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + (hits.scoreDocs[x].doc) + ")"
+                                + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + doc.get("id") + ")"
                                 + doc.get(LuceneConstants.CONTENTS)
                         //+ " Date: " + doc.get(LuceneConstants.DATE)
 
