@@ -15,4 +15,6 @@ public class LuceneConstants {
     public static final String stopWordsDir = "src/main/resources/stopwords.txt";
     public static final int MAX_SEARCH = 10;
     public static final int suggestionsNumber = 5;
+    public static String TestIndexDir = "src/main/resources/TestIndex";
+    public static String testDir = "src/main/resources/cran_new";
 }

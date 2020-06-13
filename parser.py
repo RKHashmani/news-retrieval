@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-import re 
+import re
+import os
 
 DIR = "cran/cran.all.1400"
 data = ""
@@ -20,9 +21,10 @@ for i in range(len(matches)):
         metadata = split[0]
         metadata = re.compile("\.[TAB]\n").split(metadata)
         metadata = ''.join(metadata[1:])
-        with open("cran_new/" + str(i) + "_body.txt", "w") as fd:
+        os.system("mkdir cran_new/" + str(i))
+        with open("cran_new/" + str(i) + "/body.txt", "w") as fd:
             fd.write(body)
-        with open("cran_new/" + str(i) + "_metadata.txt", "w") as fd:
+        with open("cran_new/" + str(i) + "/metadata.txt", "w") as fd:
             fd.write(metadata)
     except IndexError as ie:
         pass
