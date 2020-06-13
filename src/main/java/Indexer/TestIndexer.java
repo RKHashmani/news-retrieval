@@ -47,19 +47,16 @@ public class TestIndexer {
     }
 
     public int createIndex(String dataDirPath) {
-        int i = 1;
         int numIndexed = 0;
         try {
             File [] listOfFiles = new File(dataDirPath).listFiles();
-            for (int j = 1; j <= listOfFiles.length; j++) {
-                File [] files = new File(dataDirPath + "/" + j).listFiles();
+            for (int j = 1; j <= 1400; j++) {
                 try {
-                    indexFile(files[0], i);
+                    File [] files = new File(dataDirPath + "/" + j).listFiles();
+                    indexFile(files[0], j);
                     numIndexed++;
                 }
-                catch (NullPointerException ignored) {}
-                finally {
-                    i++;
+                catch (NullPointerException ignored) {
                 }
             }
         }
