@@ -14,7 +14,7 @@ import numpy as np
 #retrieve7 = [[3,0], [20,2], [56,3], [57,3], [58,3], [19,4], [1,0], [300,0]]
 
 query6 = [[99,2], [115,3], [257,3], [258,3]]
-retrieve6 = [[99,2], [20,2], [115,3], [257,3], [58,3], [19,4], [1,0], [300,0]]
+retrieve6 = [[99,0], [20,0], [115,0], [257,0], [58,0], [19,0], [1,0], [300,0]]
 
 
 
@@ -28,8 +28,8 @@ retrieved2 = [[25,2], [12,3], [4,3], [5,3], [13,4], [16,0], [35,2], [32,3], [28,
 
 
 # For Testing NDCG:
-#relevant = [[1,3], [2,3], [3,3], [4,2], [5,2], [6,1], [7,1], [8,0], [9,0], [10,0]]
-#retrieved = [[5,2], [2,3], [1,3], [10,0], [6,1], [4,2], [7,1], [9,0], [3,3], [8,0]]
+relevantNDCG = [[1,3], [2,3], [3,3], [4,2], [5,2], [6,1], [7,1], [8,0], [9,0], [10,0]]
+retrievedNDCG = [[5,2], [2,3], [1,3], [10,0], [6,1], [4,2], [7,1], [9,0], [3,3], [8,0]]
 
 
 def RetrieveCheck (retrieved, relevant):
@@ -41,7 +41,7 @@ def RetrieveCheck (retrieved, relevant):
 			else:
 				totalNo+=1
 		if totalNo == len(relevant):
-				print ('No Match for %d' %i)
+			print ('No Match for %d' %i)
 
 def basicRecall (retrieved, relevant):
 	totalRet = 0.0
@@ -152,7 +152,20 @@ def PlotInterpol (retrieved, relevant):
 	plt.savefig('Interpolated.png')
 	plt.show()
 
+def RelationFix (retrieve1, query1):
+	for i in range(len(retrieve1)):
+		totalNo = 0
+		for j in range(len(query1)):
+			if retrieve1[i][0] == query1[j][0]:
+				retrieve1[i][1] = query1[j][1]
+			else:
+				totalNo+=1
+		if totalNo == len(query1):
+			retrieve1[i][1] = 0
+	return retrieve1
+
 def DCG (retrieved, relevant):
+	retrieved = RelationFix(retrieved, relevant)
 	dcg = retrieved[0][1]
 
 	if len(retrieved) < len(relevant):
@@ -167,6 +180,7 @@ def DCG (retrieved, relevant):
 	return dcg
 
 def IDCG (retrieved, relevant):
+	retrieved = RelationFix(retrieved, relevant)
 	idcg = relevant[0][1]
 
 	if len(retrieved) < len(relevant):
@@ -244,6 +258,11 @@ def MAP (retrieve1, query1, retrieve2, query2, retrieve3, query3):
 	mapValue = (term1 + term2 + term3) / totalQueries
 	print (f"MAP: {mapValue}")
 
+def EVALUATE (retrieve1, query1):
+	print(f"NDCG: {NDCG(retrieve1, query1)}")
+	print(f"Recall: {basicRecall(retrieve1, query1)}")
+	print(f"Precision: {basicPrecision(retrieve1, query1)}")
+	print(f"F1: {F1(retrieve1, query1)}")
 
 
 ## Don't Delete, this is for potential probelm debugging. 
@@ -266,24 +285,23 @@ def MAP (retrieve1, query1, retrieve2, query2, retrieve3, query3):
 
 #print (RecallTable(retrieved, relevant))
 
+RelationFix(retrieve6, query6)
+
 ## OUTPUT
 
 #For Query1
 print ('For Query1:')
-
-print(f"NDCG: {NDCG(retrieved, relevant)}")
-print(f"Recall: {basicRecall(retrieved, relevant)}")
-print(f"Precision: {basicPrecision(retrieved, relevant)}")
-print(f"F1: {F1(retrieved, relevant)}")
+EVALUATE(retrieved, relevant)
 print('\n')
 
 #For Query2
 print ('For Query2:')
+EVALUATE(retrieved2, relevant2)
+print('\n')
 
-print(f"NDCG: {NDCG(retrieved2, relevant2)}")
-print(f"Recall: {basicRecall(retrieved2, relevant2)}")
-print(f"Precision: {basicPrecision(retrieved2, relevant2)}")
-print(f"F1: {F1(retrieved2, relevant2)}")
+#For Query3
+print ('For Query3:')
+EVALUATE(retrievedNDCG, relevantNDCG)
 print('\n')
 
 #For All Queries:
