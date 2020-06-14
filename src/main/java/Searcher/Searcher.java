@@ -38,8 +38,8 @@ public class Searcher {
         indexSearcher = new IndexSearcher(reader);
         similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Indexer.java
         indexSearcher.setSimilarity(similarity);
-        queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
-        //queryParser = new QueryParser(LuceneConstants.CONTENTS, NoStopWord);//Choose FIELD here
+        //queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
+        queryParser = new QueryParser(LuceneConstants.CONTENTS, NoStopWord);//Choose FIELD here
         //queryParser = new QueryParser(LuceneConstants.CONTENTS, WhiteSpace);
         // Change above's standard Analyzer to match whatever analyzer we use for the index
     }

@@ -22,14 +22,14 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("\"Don*ld Trump\""); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("Green phones far away"); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(LuceneConstants.StandardIndexDir);   //Choosing which Index
+        searcher = new Searcher(LuceneConstants.StopWordsIndexDir);   //Choosing which Index
         //searcher = new Searcher(LuceneConstants.TestStopWordsIndexDir);
         //searcher = new Searcher(LuceneConstants.TestWhiteSpaceIndexDir);
         long startTime = System.currentTimeMillis();
@@ -44,15 +44,25 @@ public class SearcherMain {
             System.out.println(hits.totalHits.value +
                     " documents found. Time :" + (endTime - startTime));
             int x = 0;
-            /*for(ScoreDoc scoreDoc : hits.scoreDocs) {
+            for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
                         + doc.get(LuceneConstants.HEADER)
-                        + " Date: " + doc.get(LuceneConstants.DATE)
+                        + "\" Date: " + doc.get(LuceneConstants.DATE)
                         + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + hits.scoreDocs[x].doc + ")"
-                        // + "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
+                        //+ "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
                 );
-             */
+                x=x+1;
+            }
+        }
+
+        // For Cranfield Output. For evaluation purposes. Do not delete yet.
+
+        /*
+        } else {
+            System.out.println(hits.totalHits.value +
+                    " documents found. Time :" + (endTime - startTime));
+            int x = 0;
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
                 System.out.println("Article " + x + ": "
@@ -65,6 +75,8 @@ public class SearcherMain {
                 x=x+1;
             }
         }
+        */
+
         CollectionStatistics stats = searcher.getStats();
         System.out.println(stats);
     }

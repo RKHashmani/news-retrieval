@@ -53,8 +53,6 @@ public class Indexer{
         config.setSimilarity(similarity);
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         writer = new IndexWriter(indexDirectory, config);
-        //writer.deleteAll(); //Maybe not needed.
-        //writer.commit();
     }
 
     public void close() throws IOException {
