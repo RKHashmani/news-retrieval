@@ -9,27 +9,67 @@ import numpy as np
 
 #Add queries here, in this format:
 
+query1 = [[184,2], [29,2], [31,2], [12,3], [51,3], [102,3], [13,4], [14,4], [15,4], [57,2], [378,2], [859,2], [185,3], [30,3], [37,3], [52,4], [142,4], [195,4], [875,2], [56,3], [66,3], [95,3], [462,4], [497,3], [858,3], [876,3], [879,3], [880,3]]
+query2 = [[12,1], [15,2], [184,2], [858,2], [51,3], [102,3], [202,3], [14,4], [52,4], [380,4], [746,1], [859,2], [948,2], [285,3], [390,3], [391,3], [442,4], [497,3], [643,3], [856,3], [857,3], [877,3], [864,3], [658,3]]
+query8 = [[48,1], [122,1], [20,3], [58,3], [196,3], [354,1], [360,1], [197,3], [999,3], [1112,3], [1005,1]]
+query10 = [[259,2], [405,2], [302,3], [436,3], [437,3], [438,3], [998,3], [1011,3]]
+query23 = [[900,1], [902,1], [200,2], [201,2], [601,2], [899,3], [903,3], [593,3], [199,4], [594,4], [901,2], [544,2], [597,2], [749,3], [917,3], [919,3], [1333,4], [634,2], [687,2], [698,2], [1290,3], [700,2], [704,2], [705,2], [1109,2], [1112,2], [1141,2], [1197,2], [1256,2], [1259,2], [1272,2], [1289,2]]
+query29 = [[250,2], [514,2], [609,2], [225,3], [793,3], [464,4], [465,4], [612,2], [466,4]]
+query39 = [[272,1], [555,1], [24,2], [283,2], [552,2], [79,3], [207,3], [418,3], [557,4], [554,2], [556,2], [505,3], [1257,3]]
+query40 = [[24,2], [283,2], [552,2], [272,3], [85,3], [976,3], [557,4], [558,4], [553,2], [554,2], [555,2], [556,2]]
+query51 = [[94,1], [23,2], [105,2], [381,2], [192,3], [326,4], [63,4], [494,2], [629,2], [261,4]]
+query53 = [[33,3], [446,4], [447,4], [448,4], [449,4], [208,4], [297,4], [298,4], [299,4]]
+query157 = [[273,2], [1105,2], [1106,2], [93,3], [161,3], [302,3], [122,4], [666,4], [1107,2], [556,2], [25,2], [1011,3], [19,3], [35,3], [1355,4], [372,2], [410,2], [456,2], [36,3], [44,3], [215,3], [626,2], [1151,2], [354,3], [369,3], [370,3], [421,3], [557,3], [605,3], [655,3], [657,3], [689,3], [1307,3], [318,3], [423,3], [1304,3], [160,3], [482,3], [572,3]]
+query225 = [[1379,2], [1305,2], [1304,2], [40,3], [293,3], [1309,3], [161,4], [421,4], [1377,4], [1378,3], [1381,3], [225,3], [1380,4], [448,3], [449,3], [1124,3], [1280,3], [433,3], [923,3], [924,3], [1062,3], [1074,3], [1075,3], [1213,3]]
 
-#query7 = [[20,2], [56,3], [57,3], [58,3], [19,4]]
-#retrieve7 = [[3,0], [20,2], [56,3], [57,3], [58,3], [19,4], [1,0], [300,0]]
+#Add retrievec here
+retrieve1 = [[184,2], [13,2], [51,3], [12,3], [1268,3], [878,0], [486,0], [875,0], [1361,0], [588,0]]
+retrieve1STOP = [[184,0], [13,0], [12,0], [878,0], [51,0], [875,0], [486,0], [1268,0], [429,0], [195,0]]
+retrieve1WHITE = [[13,0], [51,0], [184,0], [878,0], [1361,0], [429,0], [875,0], [1268,0], [486,0], [792,0]]
 
-query6 = [[99,2], [115,3], [257,3], [258,3]]
-retrieve6 = [[99,0], [20,0], [115,0], [257,0], [58,0], [19,0], [1,0], [300,0]]
+retrieve2 = [[12,0], [792,0], [51,0], [746,0], [1158,0], [875,0], [884,0],[700,0], [1089,0], [726,0] ]
+retrieve2STOP = [[12,0], [51,0], [875,0], [884,0], [726,0], [746,0], [792,0], [429,0], [700,0], [1169,0]]
+retrieve2WHITE = [[12,0], [792,0], [1158,0], [746,0], [875,0], [51,0], [700,0], [884,0], [1089,0], [429,0]]
 
+retrieve8 = [[166,0], [1275,0], [1085,0], [1189,0], [1312,0], [1252,0], [317,0], [236,0], [185,0], [575,0]]
+retrieve8STOP = [[166,0], [1085,0], [1275,0], [1312,0], [1189,0], [236,0], [378,0], [317,0], [914,0], [575,0]]
+retrieve8WHITE = [[166,0], [1085,0], [1312,0], [1189,0], [1275,0], [1252,0], [1255,0], [378,0], [317,0], [1224,0]]
 
+retrieve10 = [[257,0], [491,0], [148,0], [544,0], [315,0], [386,0], [558,0], [121,0], [817,0], [344,0]]
+retrieve10STOP = [[491,0], [385,0], [386,0], [257,0], [271,0], [610,0], [1374,0], [142,0], [137,0], [418,0]]
+retrieve10WHITE = [[257,0], [491,0], [315,0], [544,0], [558,0], [121,0], [651,0], [817,0], [861,0], [228,0]]
 
-# For testing Recall/Prec plot. Ignore:
-relevant = [[1,2], [4,3], [6,3], [9,3], [14,4], [17,0], [19,2], [21,3], [23,3], [29,3], [36,4], [37,0], [38,0]]
-retrieved = [[22,2], [4,3], [36,3], [39,3], [38,4], [6,0], [24,2], [15,3], [23,3], [14,3], [19,4], [18,0], [20,0], [8,0], [1,0]]
+retrieve23 = [[624,0], [650,0], [1232,0], [1223,0], [649,0], [543,0], [324,0], [678,0], [39,0], [982,0]]
+retrieve23STOP = [[624,0], [650,0], [1223,0], [1232,0], [649,0], [1164,0], [324,0], [86,0], [245,0], [592,0]]
+retrieve23WHITE = [[624,0], [1232,0], [1223,0], [543,0], [324,0], [39,0], [650,0], [982,0], [1305,0], [602,0]]
 
-relevant2 = [[5,2], [15,3], [25,3], [36,3]]
-retrieved2 = [[25,2], [12,3], [4,3], [5,3], [13,4], [16,0], [35,2], [32,3], [28,3], [17,3], [21,4], [15,0], [23,0], [36,0], [1,0]]
+retrieve29 = [[1099,0], [463,0], [1117,0], [462,0], [1096,0], [1097,0], [817,0], [1340,0], [553,0], [1065,0]]
+retrieve29STOP = [[463,0], [1099,0], [1117,0], [817,0], [462,0], [1097,0], [1340,0], [1096,0], [553,0]]
+retrieve29WHITE = [[1099,0], [463,0], [1117,0], [462,0], [1096,0], [1097,0], [817,0], [1340,0], [553,0], [1065,0]]
 
+retrieve39 = [[502,0], [302,0], [68,0], [96,0], [1007,0], [538,0], [1011,0], [628,0], [1199,0], [1230,0]]
+retrieve39STOP = [[502,0], [68,0], [302,0], [96,0], [271,0], [343,0], [429,0], [686,0], [628,0], [1007,0] ]
+retrieve39WHITE = [[502,0], [302,0], [68,0], [1007,0], [429,0], [628,0], [343,0],[96,0], [538,0], [16,0]]
 
+retrieve40 = [[16,0], [560,0], [413,0], [125,0], [306,0], [61,0], [322,0], [260,0], [962,0], [1212,0]]
+retrieve40STOP = [[413,0], [254,0], [560,0], [348,0], [50,0], [140,0], [306,0], [81,0], [55,0], [980,0]]
+retrieve40WHITE = [[16,0], [560,0], [413,0], [61,0], [322,0], [125,0], [980,0], [140,0], [306,0], [254,0]]
 
-# For Testing NDCG:
-relevantNDCG = [[1,3], [2,3], [3,3], [4,2], [5,2], [6,1], [7,1], [8,0], [9,0], [10,0]]
-retrievedNDCG = [[5,2], [2,3], [1,3], [10,0], [6,1], [4,2], [7,1], [9,0], [3,3], [8,0]]
+retrieve51 = [[382,0], [4,0], [629,0], [180,0], [3,0], [664,0], [96,0], [611,0], [348,0], [21,0]]
+retrieve51STOP = [[382,0], [629,0], [4,0], [3,0], [611,0], [307,0], [348,0], [180,0], [568,0], [1282,0]]
+retrieve51WHITE = [[382,0], [629,0], [180,0], [4,0], [348,0], [96,0], [611,0], [664,0], [3,0], [21,0]]
+
+retrieve53 =  [[251,0], [367,0], [250,0], [1050,0], [893,0], [1048,0], [521,0], [36,0], [633,0], [677,0]]
+retrieve53STOP = [[367,0], [752,0], [1050,0], [1048,0], [677,0], [250,0], [1362,0], [981,0], [451,0], [1023,0]]
+retrieve53WHITE = [[251,0], [250,0], [1050,0], [367,0], [1048,0], [893,0], [521,0], [633,0], [36,0], [1124,0]]
+
+retrieve157 = [[640,0], [909,0], [220,0], [725,0], [722,0], [883,0], [29,0], [345,0], [1039,0], [1360,0]]
+retrieve157STOP = [[640,0], [909,0], [725,0], [883,0], [29,0], [220,0], [415,0], [1051,0], [1039,0], [137,0]]
+retrieve157WHITE = [[640,0], [909,0], [725,0], [220,0], [29,0], [722,0],[883,0], [345,0], [1039,0], [1360,0]]
+
+retrieve225 = [[671,0], [1225,0], [94,0], [547,0], [1062,0], [42,0], [678,0], [255,0], [339,0], [610,0]]
+retrieve225STOP = [[671,0], [1225,0], [3,0], [547,0], [339,0], [696,0], [333,0], [76,0], [335,0], [324,0]]
+retrieve225WHITE = [[671,0], [94,0], [1074,0], [42,0], [1225,0], [547,0], [1362,0], [749,0], [291,0], [1062,0]]
 
 
 def RetrieveCheck (retrieved, relevant):
@@ -60,7 +100,10 @@ def basicPrecision (retrieved, relevant):
 	return totalRet / float (len(retrieved))
 
 def F1(retrieved, relevant):
-	return (2 * basicPrecision(retrieved, relevant) * basicRecall(retrieved, relevant)) / (basicPrecision(retrieved, relevant) + basicRecall(retrieved, relevant))
+	if (basicPrecision(retrieved, relevant) + basicRecall(retrieved, relevant)) == 0:
+		return 0
+	else:
+		return (2 * basicPrecision(retrieved, relevant) * basicRecall(retrieved, relevant)) / (basicPrecision(retrieved, relevant) + basicRecall(retrieved, relevant))
 
 def RecallTable (retrieved, relevant):
 	recallK = []
@@ -197,18 +240,28 @@ def IDCG (retrieved, relevant):
 def NDCG (retrieved, relevant):
 	return DCG(retrieved, relevant) / IDCG(retrieved, relevant)
 
-def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add more query variables here
+def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3, retrieve4, query4, retrieve5, query5, retrieve6, query6, retrieve7, query7, retrieve8, query8, retrieve9, query9, retrieve10, query10, retrieve11, query11, retrieve12, query12): #Add more query variables here
 
 	interpolRecall = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
-	totalQueries = 3 #Set the number of total queries present in the argument.
+	totalQueries = 12 #Set the number of total queries present in the argument.
 
 	# Add another line for each query
-	interpol_1 = InterpolatedValues(retrieve1, query1)
-	interpol_2 = InterpolatedValues(retrieve2, query2)
-	interpol_3 = InterpolatedValues(retrieve3, query3)
 
-	numerator = [interpol_1[i] + interpol_2[i] + interpol_3[i] for i in range(len(interpol_1))] #Add a new interpol_X[i]
+	interpol_1 = InterpolatedValues (retrieve1, query1)
+	interpol_2 = InterpolatedValues (retrieve2, query2)
+	interpol_3 = InterpolatedValues (retrieve3, query3)
+	interpol_4 = InterpolatedValues (retrieve4, query4)
+	interpol_5 = InterpolatedValues (retrieve5, query5)
+	interpol_6 = InterpolatedValues (retrieve6, query6)
+	interpol_7 = InterpolatedValues (retrieve7, query7)
+	interpol_8 = InterpolatedValues (retrieve8, query8)
+	interpol_9 = InterpolatedValues (retrieve9, query9)
+	interpol_10 = InterpolatedValues (retrieve10, query10)
+	interpol_11 = InterpolatedValues (retrieve11, query11)
+	interpol_12 = InterpolatedValues (retrieve12, query12)
+
+	numerator = [interpol_1[i] + interpol_2[i] + interpol_3[i] + interpol_4[i] + interpol_5[i] + interpol_6[i] + interpol_7[i] + interpol_8[i] + interpol_9[i] + interpol_10[i] + interpol_11[i] + interpol_12[i] for i in range(len(interpol_1))] #Add a new interpol_X[i]
 	averaged = [numerator[i] / totalQueries for i in range(len(interpol_1))]
 	
 	plt.plot (interpolRecall, averaged, marker = 'o')
@@ -221,6 +274,21 @@ def interpolated (retrieve1, query1, retrieve2, query2, retrieve3, query3): #Add
 	plt.show()
 
 	return averaged
+
+def CombinedInterpolated (array1, array2, array3):
+	interpolRecall = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+	plt.plot (interpolRecall, array1, color ='red',marker = 'o', label = 'Standard')
+	plt.plot (interpolRecall, array2, color ='blue',marker = 'o', label = 'NoStopWords')
+	plt.plot (interpolRecall, array3, color ='black',marker = 'o', label = 'Whitespace')
+
+	plt.xlabel ('Recall')
+	plt.ylabel ('Precision')
+	plt.title ('Averaged 11-point Precision/Recall Graph for All Analyzers')
+	plt.grid()
+	plt.legend()
+	plt.savefig('CombinedInterpolated.png')
+	plt.show()
 
 def MAPTerm (retrieve1, query1):
 	recTable1 = RecallTable(retrieve1, query1)
@@ -244,19 +312,66 @@ def MAPTerm (retrieve1, query1):
 			if recTable1[i] > recTable1[i-1]:
 				incr1 += 1
 				numer1 += precTable1[i]
-
-	term1 = numer1 / incr1
+	if incr1 ==0:
+		term1 = 0
+	else:
+		term1 = numer1 / incr1
 	return term1
 
-def MAP (retrieve1, query1, retrieve2, query2, retrieve3, query3):
-	totalQueries = 3
+def MAP (retrieve1, query1, retrieve2, query2, retrieve3, query3, retrieve4, query4, retrieve5, query5, retrieve6, query6, retrieve7, query7, retrieve8, query8, retrieve9, query9, retrieve10, query10, retrieve11, query11, retrieve12, query12):
+	totalQueries = 12
 
 	term1 = MAPTerm (retrieve1, query1)
 	term2 = MAPTerm (retrieve2, query2)
 	term3 = MAPTerm (retrieve3, query3)
+	term4 = MAPTerm (retrieve4, query4)
+	term5 = MAPTerm (retrieve5, query5)
+	term6 = MAPTerm (retrieve6, query6)
+	term7 = MAPTerm (retrieve7, query7)
+	term8 = MAPTerm (retrieve8, query8)
+	term9 = MAPTerm (retrieve9, query9)
+	term10 = MAPTerm (retrieve10, query10)
+	term11 = MAPTerm (retrieve11, query11)
+	term12 = MAPTerm (retrieve12, query12)
 
-	mapValue = (term1 + term2 + term3) / totalQueries
+	mapValue = (term1 + term2 + term3 + term4 + term5 + term6 +term7 + term8 + term9 +term10 + term11 + term12) / totalQueries
 	print (f"MAP: {mapValue}")
+
+def FirstCorrectRank (retrieve1, query1):
+	for i in range(len(retrieve1)):
+		for j in range(len(query1)):
+			if retrieve1[i][0] == query1[j][0]:
+				return (i+1)
+	return 0
+
+def ZeroCheck (retrieve1, query1):
+	num1 = FirstCorrectRank(retrieve1, query1)
+	if num1 !=0:
+		term1 = 1 / FirstCorrectRank(retrieve1, query1)
+	else:
+		term1 = 0
+	return term1
+
+def MRR (retrieve1, query1, retrieve2, query2, retrieve3, query3, retrieve4, query4, retrieve5, query5, retrieve6, query6, retrieve7, query7, retrieve8, query8, retrieve9, query9, retrieve10, query10, retrieve11, query11, retrieve12, query12):
+	totalQueries = 12
+	term1 = ZeroCheck (retrieve1, query1)
+	term2 = ZeroCheck (retrieve2, query2)
+	term3 = ZeroCheck (retrieve3, query3)
+	term4 = ZeroCheck (retrieve4, query4)
+	term5 = ZeroCheck (retrieve5, query5)
+	term6 = ZeroCheck (retrieve6, query6)
+	term7 = ZeroCheck (retrieve7, query7)
+	term8 = ZeroCheck (retrieve8, query8)
+	term9 = ZeroCheck (retrieve9, query9)
+	term10 = ZeroCheck (retrieve10, query10)
+	term11 = ZeroCheck (retrieve11, query11)
+	term12 = ZeroCheck (retrieve12, query12)
+
+	mrr = (term1 + term2 + term3 + term4 + term5 + term6 +term7 + term8 + term9 +term10 + term11 + term12) / totalQueries
+
+	print (f"MRR: {mrr}")
+
+
 
 def EVALUATE (retrieve1, query1):
 	print(f"NDCG: {NDCG(retrieve1, query1)}")
@@ -265,7 +380,7 @@ def EVALUATE (retrieve1, query1):
 	print(f"F1: {F1(retrieve1, query1)}")
 
 
-## Don't Delete, this is for potential probelm debugging. 
+## Don't Delete, this is for potential problem debugging. 
 
 #print(f"Recall: {basicRecall(retrieved, relevant)}")
 #print(f"Precision: {basicPrecision(retrieved, relevant)}")
@@ -285,26 +400,26 @@ def EVALUATE (retrieve1, query1):
 
 #print (RecallTable(retrieved, relevant))
 
-RelationFix(retrieve6, query6)
-
-## OUTPUT
-
-#For Query1
-print ('For Query1:')
-EVALUATE(retrieved, relevant)
-print('\n')
-
-#For Query2
-print ('For Query2:')
-EVALUATE(retrieved2, relevant2)
-print('\n')
-
-#For Query3
-print ('For Query3:')
-EVALUATE(retrievedNDCG, relevantNDCG)
-print('\n')
+#OUTPUT
 
 #For All Queries:
-MAP(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
+print("For Standard Analyzer")
+MAP(retrieve1, query1, retrieve2, query2, retrieve8, query8, retrieve10, query10, retrieve23, query23, retrieve29, query29, retrieve39, query39, retrieve40, query40, retrieve51, query51, retrieve53, query53, retrieve157, query157, retrieve225, query225)
+MRR(retrieve1, query1, retrieve2, query2, retrieve8, query8, retrieve10, query10, retrieve23, query23, retrieve29, query29, retrieve39, query39, retrieve40, query40, retrieve51, query51, retrieve53, query53, retrieve157, query157, retrieve225, query225)
+
+print("For No Stop Word Analyzer")
+MAP(retrieve1STOP, query1, retrieve2STOP, query2, retrieve8STOP, query8, retrieve10STOP, query10, retrieve23STOP, query23, retrieve29STOP, query29, retrieve39STOP, query39, retrieve40STOP, query40, retrieve51STOP, query51, retrieve53STOP, query53, retrieve157STOP, query157, retrieve225STOP, query225)
+MRR(retrieve1STOP, query1, retrieve2STOP, query2, retrieve8STOP, query8, retrieve10STOP, query10, retrieve23STOP, query23, retrieve29STOP, query29, retrieve39STOP, query39, retrieve40STOP, query40, retrieve51STOP, query51, retrieve53STOP, query53, retrieve157STOP, query157, retrieve225STOP, query225)
+
+print("For Whitespace Analyzer")
+MAP(retrieve1WHITE, query1, retrieve2WHITE, query2, retrieve8WHITE, query8, retrieve10WHITE, query10, retrieve23WHITE, query23, retrieve29WHITE, query29, retrieve39WHITE, query39, retrieve40WHITE, query40, retrieve51WHITE, query51, retrieve53WHITE, query53, retrieve157WHITE, query157, retrieve225WHITE, query225)
+MRR(retrieve1WHITE, query1, retrieve2WHITE, query2, retrieve8WHITE, query8, retrieve10WHITE, query10, retrieve23WHITE, query23, retrieve29WHITE, query29, retrieve39WHITE, query39, retrieve40WHITE, query40, retrieve51WHITE, query51, retrieve53WHITE, query53, retrieve157WHITE, query157, retrieve225WHITE, query225)
+
+
 #interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6)
-print (interpolated(retrieved, relevant, retrieved2, relevant2, retrieve6, query6))
+array1 = interpolated(retrieve1, query1, retrieve2, query2, retrieve8, query8, retrieve10, query10, retrieve23, query23, retrieve29, query29, retrieve39, query39, retrieve40, query40, retrieve51, query51, retrieve53, query53, retrieve157, query157, retrieve225, query225)
+array2 = interpolated(retrieve1STOP, query1, retrieve2STOP, query2, retrieve8STOP, query8, retrieve10STOP, query10, retrieve23STOP, query23, retrieve29STOP, query29, retrieve39STOP, query39, retrieve40STOP, query40, retrieve51STOP, query51, retrieve53STOP, query53, retrieve157STOP, query157, retrieve225STOP, query225)
+array3 = interpolated(retrieve1WHITE, query1, retrieve2WHITE, query2, retrieve8WHITE, query8, retrieve10WHITE, query10, retrieve23WHITE, query23, retrieve29WHITE, query29, retrieve39WHITE, query39, retrieve40WHITE, query40, retrieve51WHITE, query51, retrieve53WHITE, query53, retrieve157WHITE, query157, retrieve225WHITE, query225)
+
+CombinedInterpolated(array1, array2, array3)
+
