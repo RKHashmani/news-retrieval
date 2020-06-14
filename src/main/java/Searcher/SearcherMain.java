@@ -22,17 +22,16 @@ public class SearcherMain {
         SearcherMain tester;
         try {
             tester = new SearcherMain();
-            tester.search("how can the effect of the boundary-layer on wing pressure be calculated,\n" +
-                    "and what is its magnitude"); // Choose Search Query here. Choose Field in "Searcher.java" file.
+            tester.search("\"Don*ld Trump\""); // Choose Search Query here. Choose Field in "Searcher.java" file.
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
     private void search(String searchQuery) throws IOException, ParseException {
-        //searcher = new Searcher(LuceneConstants.TestIndexDir);   //Choosing which Index
+        searcher = new Searcher(LuceneConstants.StandardIndexDir);   //Choosing which Index
         //searcher = new Searcher(LuceneConstants.TestStopWordsIndexDir);
-        searcher = new Searcher(LuceneConstants.TestWhiteSpaceIndexDir);
+        //searcher = new Searcher(LuceneConstants.TestWhiteSpaceIndexDir);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
 
