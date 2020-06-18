@@ -16,22 +16,14 @@ import java.io.IOException;
 
 public class SearcherMain {
 
+    private final String indexDir;
     Searcher searcher;
-
-    public static void main(String[] args) {
-        SearcherMain tester;
-        try {
-            tester = new SearcherMain();
-            tester.search("Green phones far away"); // Choose Search Query here. Choose Field in "Searcher.java" file.
-        } catch (IOException | ParseException e) {
-            e.printStackTrace();
-        }
+    public SearcherMain(String indexDir) {
+        this.indexDir = indexDir;
     }
 
-    private void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(LuceneConstants.StopWordsIndexDir);   //Choosing which Index
-        //searcher = new Searcher(LuceneConstants.TestStopWordsIndexDir);
-        //searcher = new Searcher(LuceneConstants.TestWhiteSpaceIndexDir);
+    public String search(String searchQuery) throws IOException, ParseException {
+        searcher = new Searcher(indexDir);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
 
@@ -39,21 +31,24 @@ public class SearcherMain {
 
         if (hits.totalHits.value == 0) {
             SpellCheckerService spellcheck = new SpellCheckerService();
-            spellcheck.suggestWords(searchQuery); // dunno how to expand it for multiterm queries
+            return spellcheck.suggestWords(searchQuery); // dunno how to expand it for multiterm queries
         } else {
-            System.out.println(hits.totalHits.value +
-                    " documents found. Time :" + (endTime - startTime));
+            String message = "\n\n" + hits.totalHits.value +
+                    " documents found. Time :" + (endTime - startTime);
             int x = 0;
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
-                System.out.println("Article " + x + ": "
+                message += "\n\nArticle " + x + ": "
                         + doc.get(LuceneConstants.HEADER)
-                        + "\" Date: " + doc.get(LuceneConstants.DATE)
-                        + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + hits.scoreDocs[x].doc + ")"
+                        + "\nDate: " + doc.get(LuceneConstants.DATE)
+                        + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + doc.get("id") + ")";
                         //+ "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
-                );
                 x=x+1;
             }
+            CollectionStatistics stats = searcher.getStats();
+            System.out.println(stats);
+            System.out.println(message);
+            return message;
         }
 
         // For Cranfield Output. For evaluation purposes. Do not delete yet.
@@ -76,8 +71,5 @@ public class SearcherMain {
             }
         }
         */
-
-        CollectionStatistics stats = searcher.getStats();
-        System.out.println(stats);
     }
 }

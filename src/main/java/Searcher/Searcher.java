@@ -41,7 +41,6 @@ public class Searcher {
         //queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
         queryParser = new QueryParser(LuceneConstants.CONTENTS, NoStopWord);//Choose FIELD here
         //queryParser = new QueryParser(LuceneConstants.CONTENTS, WhiteSpace);
-        // Change above's standard Analyzer to match whatever analyzer we use for the index
     }
 
     public TopDocs search( String searchQuery) throws IOException, ParseException {
@@ -49,7 +48,7 @@ public class Searcher {
         return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }
 
-    public Explanation explanation (int docID)throws IOException, ParseException{
+    public Explanation explanation (int docID)throws IOException {
         Explanation explain = indexSearcher.explain(query,docID);
         return explain;
     }

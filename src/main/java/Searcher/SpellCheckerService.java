@@ -22,16 +22,18 @@ public class SpellCheckerService {
                 new IndexWriterConfig(), true);
     }
 
-    public void suggestWords(String wordForSuggestions) throws IOException {
+    public String suggestWords(String wordForSuggestions) throws IOException {
         String[] suggestions = spellChecker.suggestSimilar(wordForSuggestions, LuceneConstants.suggestionsNumber);
-
+        StringBuilder message = new StringBuilder();
+        message.append("\n");
         if (suggestions!=null && suggestions.length>0) {
             for (String word : suggestions) {
-                System.out.println("Did you mean:" + word);
+                message.append("\nDid you mean: ").append(word);
             }
         }
         else {
-            System.out.println("No suggestions found for word:"+wordForSuggestions);
+            message.append("\nNo suggestions found for word: ").append(wordForSuggestions);
         }
+        return message.toString();
     }
 }
