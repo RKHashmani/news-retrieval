@@ -45,7 +45,7 @@
                   <Insets left="50.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Label prefHeight="36.0" prefWidth="162.0" text="For boolean queries:">
+            <Label prefHeight="36.0" prefWidth="162.0" text="For Boolean Queries:">
                <VBox.margin>
                   <Insets left="50.0" top="50.0" />
                </VBox.margin>
@@ -53,17 +53,22 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label text="write capital AND/OR/NOT between">
+            <Label text="Write (in capitals) AND/OR/NOT between">
                <VBox.margin>
                   <Insets left="50.0" />
                </VBox.margin>
             </Label>
-            <Label text="the words in the query.">
+            <Label text="the words/phrases in the query.">
                <VBox.margin>
                   <Insets left="50.0" />
                </VBox.margin>
             </Label>
-            <Label prefHeight="54.0" prefWidth="200.0" text="For phrase queries:">
+            <Label prefHeight="30.0" text="Example: Green AND Years">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Label>
+            <Label prefHeight="54.0" prefWidth="200.0" text="For Phrase Queries:">
                <padding>
                   <Insets left="50.0" top="20.0" />
                </padding>
@@ -74,32 +79,22 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label text="add quotations marks &quot;&quot;">
+            <Label text="Enclose your query in quotations marks (&quot; &quot;).">
                <padding>
                   <Insets left="50.0" />
                </padding>
             </Label>
-            <Label text="surrounding your query.">
+            <Label text="For proximity searches, add ~N after the">
                <padding>
                   <Insets left="50.0" />
                </padding>
             </Label>
-            <Label text="Add ~N after the quote">
-               <padding>
-                  <Insets left="50.0" />
-               </padding>
-            </Label>
-            <Label text="for proximity search, where">
+            <Label text="quote, where N is maximum distance.">
                <VBox.margin>
                   <Insets left="50.0" />
                </VBox.margin>
             </Label>
-            <Label prefHeight="16.0" prefWidth="328.0" text="N is the number of words ">
-               <VBox.margin>
-                  <Insets left="50.0" />
-               </VBox.margin>
-            </Label>
-            <Label text="to search within.">
+            <Label prefHeight="30.0" text="Example: &quot;Green Years&quot; ~4.">
                <VBox.margin>
                   <Insets left="50.0" />
                </VBox.margin>
@@ -112,10 +107,20 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label text="insert * accordingly.">
+            <Label text="Add an asterisk (*) to replace the letter(s)">
                <padding>
                   <Insets left="50.0" />
                </padding>
+            </Label>
+            <Label text="in a query.">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Label>
+            <Label prefHeight="30.0" text="Example: Gr*n Years">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
             </Label>
          </children>
       </VBox>
