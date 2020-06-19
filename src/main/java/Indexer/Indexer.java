@@ -68,8 +68,8 @@ public class Indexer{
         TextField dateField = new TextField(LuceneConstants.DATE,
                 line[0],Field.Store.YES);
 
-        IntPoint id = new IntPoint("id", i);
-        document.add(id);
+        TextField idField = new TextField("id", i + "", Field.Store.YES);
+        document.add(idField);
         document.add(dateField);
         document.add(headerField);
         document.add(contentField);

@@ -38,7 +38,7 @@ public class SearcherMain {
             int x = 0;
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
-                message += "\n\nArticle " + x + ": "
+                message += "\n\nArticle " + x + ":\n"
                         + doc.get(LuceneConstants.HEADER)
                         + "\nDate: " + doc.get(LuceneConstants.DATE)
                         + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + doc.get("id") + ")";
