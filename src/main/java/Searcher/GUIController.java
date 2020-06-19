@@ -23,6 +23,8 @@ public class GUIController {
     @FXML public TextField searchBar;
     @FXML public Button button_search;
     @FXML public Pane resultArea;
+    @FXML public CheckBox headers;
+    @FXML public CheckBox content;
 
     public GUIController() {
         fxmlLoader = new FXMLLoader(GUIController.class.getClassLoader().getResource("SearchPage.fxml"));

@@ -13,7 +13,7 @@
 
 <BorderPane fx:id="generalLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f7e8c0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <left>
-      <VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="320.0" BorderPane.alignment="CENTER">
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="355.0" BorderPane.alignment="CENTER">
          <children>
             <CheckBox fx:id="stopWordsInclude" mnemonicParsing="false" prefHeight="44.0" prefWidth="310.0" text="Include stop words while searching">
                <padding>
@@ -35,6 +35,24 @@
                   <Insets left="50.0" />
                </padding>
             </RadioButton>
+            <Label text="Search in..">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <CheckBox fx:id="headers" mnemonicParsing="false" text="Headers">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox fx:id="content" mnemonicParsing="false" text="Content">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </CheckBox>
             <TextField fx:id="searchBar" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
                <VBox.margin>
                   <Insets left="50.0" top="20.0" />

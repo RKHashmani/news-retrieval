@@ -22,10 +22,10 @@ public class SearcherMain {
         this.indexDir = indexDir;
     }
 
-    public String search(String searchQuery) throws IOException, ParseException {
+    public String search(String searchQuery, String constant) throws IOException, ParseException {
         searcher = new Searcher(indexDir);
         long startTime = System.currentTimeMillis();
-        TopDocs hits = searcher.search(searchQuery);
+        TopDocs hits = searcher.search(searchQuery, constant);
 
         long endTime = System.currentTimeMillis();
 

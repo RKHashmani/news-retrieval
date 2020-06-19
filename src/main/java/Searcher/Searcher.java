@@ -38,12 +38,10 @@ public class Searcher {
         indexSearcher = new IndexSearcher(reader);
         similarity = new ClassicSimilarity(); //Choose Ranking Method here. Make sure it matches the one in Indexer.java
         indexSearcher.setSimilarity(similarity);
-        //queryParser = new QueryParser(LuceneConstants.CONTENTS, standardAnalyzer);
-        queryParser = new QueryParser(LuceneConstants.CONTENTS, NoStopWord);//Choose FIELD here
-        //queryParser = new QueryParser(LuceneConstants.CONTENTS, WhiteSpace);
     }
 
-    public TopDocs search( String searchQuery) throws IOException, ParseException {
+    public TopDocs search(String searchQuery, String constant) throws IOException, ParseException {
+        queryParser = new QueryParser(constant, NoStopWord);
         query = queryParser.parse(searchQuery);
         return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }

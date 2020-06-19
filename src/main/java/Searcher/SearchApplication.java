@@ -73,8 +73,19 @@ public class SearchApplication extends Application {
         SearcherMain searcherMain = new SearcherMain(indexDir);
         String searchQuery = guiController.searchBar.getText().trim();
         try {
+            String results = null;
             guiController.resultArea.getChildren().clear();
-            String results = searcherMain.search(searchQuery);
+            if (guiController.headers.isSelected()) {
+                results = searcherMain.search(searchQuery, LuceneConstants.HEADER);
+            } else if (guiController.content.isSelected()) {
+                results = searcherMain.search(searchQuery, LuceneConstants.CONTENTS);
+            } else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Search field is not chosen.");
+                alert.setHeaderText("Search field is not chosen.");
+                alert.setContentText("Please choose the field you would like to perform search on.");
+                alert.showAndWait();
+            }
             Text text = new Text(results);
             guiController.resultArea.getChildren().add(text);
         } catch (IOException | ParseException e) {
