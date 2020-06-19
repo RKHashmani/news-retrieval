@@ -38,10 +38,10 @@ public class SearcherMain {
             int x = 0;
             for(ScoreDoc scoreDoc : hits.scoreDocs) {
                 Document doc = searcher.getDocument(scoreDoc);
-                message += "\n\nArticle " + x + ":\n"
+                message += "\n\nArticle " + (x+1) + ":\n"
                         + doc.get(LuceneConstants.HEADER)
-                        + "\nDate: " + doc.get(LuceneConstants.DATE)
-                        + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + doc.get("id") + ")";
+                        + "\"\nDate: " + doc.get(LuceneConstants.DATE)
+                        + " (Score: " + hits.scoreDocs[x].score + "; Doc: " + hits.scoreDocs[x].doc + ")";
                         //+ "\nScore Explanation:\n" + searcher.explanation(hits.scoreDocs[x].doc) //Uncomment if you want score explanation.
                 x=x+1;
             }
