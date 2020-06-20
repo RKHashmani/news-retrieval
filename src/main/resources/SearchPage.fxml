@@ -15,7 +15,7 @@
    <left>
       <VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="355.0" BorderPane.alignment="CENTER">
          <children>
-            <CheckBox fx:id="stopWordsInclude" mnemonicParsing="false" prefHeight="44.0" prefWidth="310.0" text="Include stop words while searching">
+            <CheckBox fx:id="stopWordsInclude" mnemonicParsing="false" prefHeight="44.0" prefWidth="310.0" text="Include stop words while searching.">
                <padding>
                   <Insets left="50.0" top="50.0" />
                </padding>
@@ -25,17 +25,17 @@
                   <Insets left="50.0" top="20.0" />
                </padding>
             </Label>
-            <RadioButton fx:id="cranfield" mnemonicParsing="false" text="Cranfield">
+            <RadioButton fx:id="cranfield" mnemonicParsing="false" text="Cranfield (For Evaluations)">
                <padding>
                   <Insets left="50.0" />
                </padding>
             </RadioButton>
-            <RadioButton fx:id="reuters" mnemonicParsing="false" text="Reuters">
+            <RadioButton fx:id="reuters" mnemonicParsing="false" text="Reuters TRC2">
                <padding>
                   <Insets left="50.0" />
                </padding>
             </RadioButton>
-            <Label text="Search in..">
+            <Label text="Pick the field you want to search in:">
                <padding>
                   <Insets left="50.0" />
                </padding>
@@ -65,7 +65,7 @@
             </Button>
             <Label prefHeight="36.0" prefWidth="162.0" text="For Boolean Queries:">
                <VBox.margin>
-                  <Insets left="50.0" top="50.0" />
+                  <Insets left="50.0" top="25.0" />
                </VBox.margin>
                <font>
                   <Font name="System Bold" size="13.0" />
